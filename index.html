@@ -527,30 +527,30 @@ a:hover{ color:var(--accent-glow); }
 
 <!-- ② 数字バー -->
 <section class="statbar">
-  <div class="wrap"><div class="statbar-grid"><div class="stat"><span class="stat-num flame-text">100</span><span class="stat-label">BONUS</span></div><div class="stat"><span class="stat-num flame-text">4</span><span class="stat-label">FAMILY</span></div><div class="stat"><span class="stat-num flame-text">300</span><span class="stat-label">TOTAL W/ 2025</span></div><div class="stat"><span class="stat-num flame-text">∞</span><span class="stat-label">UPDATES</span></div></div></div>
+  <div class="wrap"><div class="statbar-grid"><div class="stat"><span class="stat-num flame-text">100</span><span class="stat-label">新規の特典</span></div><div class="stat"><span class="stat-num flame-text">4</span><span class="stat-label">カテゴリ</span></div><div class="stat"><span class="stat-num flame-text">300</span><span class="stat-label">2025年分と合計</span></div><div class="stat"><span class="stat-num flame-text">∞</span><span class="stat-label">追加していく</span></div></div></div>
 </section>
 
 <!-- ③④ 特典一覧 -->
 <section class="section" id="bonus">
   <div class="wrap">
     <div class="section-head">
-      <span class="section-label">BONUS LIST</span>
+      <span class="section-label">特典一覧</span>
       <h2 class="section-title">おさる Agent Skills マスタークラス 100大特典</h2>
       <p class="section-desc">カテゴリで絞り込めます。すべて Claude Code / Codex でそのまま動く実物です。</p>
     </div>
     <div class="filters" role="group" aria-label="カテゴリで絞り込む">
-      <button class="filter" type="button" data-filter="all" aria-pressed="true">ALL<span class="filter-count">100</span></button><button class="filter" type="button" data-filter="foundation" aria-pressed="false">FOUNDATION<span class="filter-count">20</span></button><button class="filter" type="button" data-filter="broadcast" aria-pressed="false">BROADCAST<span class="filter-count">35</span></button><button class="filter" type="button" data-filter="launch" aria-pressed="false">LAUNCH<span class="filter-count">25</span></button><button class="filter" type="button" data-filter="product" aria-pressed="false">PRODUCT<span class="filter-count">20</span></button>
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">すべて<span class="filter-count">100</span></button><button class="filter" type="button" data-filter="foundation" aria-pressed="false">環境構築・AI基盤<span class="filter-count">20</span></button><button class="filter" type="button" data-filter="broadcast" aria-pressed="false">SNS発信<span class="filter-count">35</span></button><button class="filter" type="button" data-filter="launch" aria-pressed="false">ローンチ・集客<span class="filter-count">25</span></button><button class="filter" type="button" data-filter="product" aria-pressed="false">商品づくり・運営<span class="filter-count">20</span></button>
     </div>
     <div class="grid" id="grid">
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.001</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>01</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Claude Code_導入10ステップ完全マニュアル</h3>
-          <p class="card-desc">インストール、学習させない設定、CLAUDE.md、MCP接続、リモート操作まで10ステップ。ターミナルを開かず、デスクトップアプリだけで今日プロと同じ設定になる。</p>
+          <h3 class="card-title">AI×Claude Code_学習させない設定→CLAUDE.md→MCP接続→API45本→スマホ操作まで初期設定10選</h3>
+          <p class="card-desc">ターミナルを一度も開かず、デスクトップアプリだけで初期設定10個を終える。学習させない設定・許可モード・CLAUDE.md・Skill・MCP・リモート操作まで、手順とコピペ用プロンプトつき。</p>
           
           <div class="card-tags"><span class="card-tag">Claude Code</span><span class="card-tag">初期設定</span><span class="card-tag">セットアップ</span></div>
         </div>
@@ -561,12 +561,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.002</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>02</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×環境構築_APIキー一括セットアップSkill</h3>
-          <p class="card-desc">APIキーと.env、OAuthトークンの置き場所を1つに揃えて、実行前に自動で読み込ませる。認証エラーで止まって調べ直す時間が消える。</p>
+          <h3 class="card-title">AI×環境構築_APIキー・.env・OAuthトークンの置き場所統一→期限チェック→疎通確認まで通す一撃セットアップSkill</h3>
+          <p class="card-desc">散らばった認証情報3系統を1つの読み込み手順に揃える。サービス名を渡すと必要な環境変数を書き出し、トークンの有効期限と疎通まで確認する。認証エラーで止まって調べ直す時間が消える。</p>
           <div class="card-cmd">/env-bootstrap</div>
           <div class="card-tags"><span class="card-tag">環境構築</span><span class="card-tag">APIキー</span><span class="card-tag">.env</span></div>
         </div>
@@ -577,12 +577,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.003</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>03</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AIの使い方マニュアル_おすすめAPI・MCP完全攻略</h3>
-          <p class="card-desc">8カテゴリ46ツールを料金体系つきで一覧化。どれから繋ぐかの順番と、アカウント凍結・APIキー流出を先に潰す3原則まで載っている。</p>
+          <h3 class="card-title">AIの使い方マニュアル_Google・SNS・リサーチ・生成・配信の8カテゴリ46ツールを料金と取得先つきで渡すAPI・MCP大全</h3>
+          <p class="card-desc">つなぐ価値のあるAPIとMCPを8カテゴリ46ツールに整理し、料金バッジ・できること・取得先リンクまで1枚に。どれから繋ぐかの順番と、いきなり全部つながない3原則つき。講座生限定で配っていた教材。</p>
           
           <div class="card-tags"><span class="card-tag">API</span><span class="card-tag">MCP</span><span class="card-tag">接続設定</span></div>
         </div>
@@ -593,12 +593,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.004</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>04</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×環境構築_AIセキュリティ自己点検Skill</h3>
-          <p class="card-desc">.envの見え方、.gitignore、APIキー直書き、AIの禁止設定を1本ずつ合格・要改善で判定して直し方を出す。秘密の値は画面にもログにも出さない。</p>
+          <h3 class="card-title">AI×環境構築_.env・.gitignore・キー直書き・deny設定を7項目で判定するセキュリティ自己点検Skill</h3>
+          <p class="card-desc">自分の作業環境をAIが点検し、7項目それぞれを合格か要改善かで判定して直し方まで出す。秘密の値は画面にもログにも出さない設計。マスキングや漏洩スキャンのプロンプト14本が同梱されている。</p>
           <div class="card-cmd">/security-check</div>
           <div class="card-tags"><span class="card-tag">セキュリティ</span><span class="card-tag">.env</span><span class="card-tag">漏洩対策</span></div>
         </div>
@@ -609,12 +609,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.005</span>
-          <span class="card-badge">PROMPT</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>05</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×環境構築_AI経営フォルダ自動構築プロンプト</h3>
-          <p class="card-desc">貼って実行するだけでCLAUDE.md・AGENTS.md・directory.mdと事業部フォルダ一式が立ち上がる。AIが迷う原因はプロンプト不足ではなく置き場所なので、そこを先に決める。</p>
+          <h3 class="card-title">AI×環境構築_フォルダ構造→CLAUDE.md→AGENTS.md→directory.md→保存先ルールまで一撃構築プロンプト</h3>
+          <p class="card-desc">事業情報を埋めて貼ると、AIが迷わない置き場所と、そこを守らせるルールファイル一式が出る。AIが的外れな出力をする原因はプロンプト不足ではなく置き場所なので、そこを先に決める。</p>
           
           <div class="card-tags"><span class="card-tag">フォルダ設計</span><span class="card-tag">CLAUDE.md</span><span class="card-tag">プロンプト</span></div>
         </div>
@@ -625,12 +625,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.006</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>06</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×環境構築_散らかったフォルダを再設計するSkill</h3>
-          <p class="card-desc">もう散らかってしまったフォルダを読んで、事業部ごとの構造に組み直す。今後どこに出力するかのルールまで書き換えるので、同じ散らかり方を繰り返さない。</p>
+          <h3 class="card-title">AI×環境構築_棚卸し→事業部振り分け→統合→directory.md更新→今後の出力先ルールまでフォルダを再設計するSkill</h3>
+          <p class="card-desc">もう散らかったフォルダを読み、移動・統合・退避の候補に分けて事業部ごとの構造へ組み直す。今後どこへ出力するかのルールまで書き換えるので、同じ散らかり方を繰り返さない。削除は必ず確認を取る。</p>
           <div class="card-cmd">/ai-folder-architecture-builder</div>
           <div class="card-tags"><span class="card-tag">フォルダ設計</span><span class="card-tag">再編成</span><span class="card-tag">directory.md</span></div>
         </div>
@@ -641,12 +641,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.007</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>07</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AIの使い方マニュアル_Claude・Codex制御ルール設計図鑑</h3>
-          <p class="card-desc">毎日動かしているルールファイル30本を、原文・期待される効果・導入プロンプトの3点セットで公開。読んで終わりではなく、同じ仕組みを自分の環境に立てるための材料。</p>
+          <h3 class="card-title">AIの使い方マニュアル_CLAUDE.md・AGENTS.md・出力先・安全ガードの8カテゴリ30本の制御ルール設計図鑑</h3>
+          <p class="card-desc">毎日動かしているルールファイルを8カテゴリ30本に種類分けし、1本ずつ元本・期待される効果・導入プロンプトの3点セットで公開。読んで終わりではなく、同じ仕組みを自分の環境に立てるための材料。</p>
           
           <div class="card-tags"><span class="card-tag">CLAUDE.md</span><span class="card-tag">AGENTS.md</span><span class="card-tag">ルール設計</span></div>
         </div>
@@ -657,12 +657,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.008</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>08</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Claude Code_仕事の品質を一段上げる実行OS</h3>
-          <p class="card-desc">着手前に4行のプランを書かせ、実物を確認させ、提出前に自分の成果物を壊しに行かせる。同じモデルのまま、手順を変えるだけで返ってくる質が変わる。</p>
+          <h3 class="card-title">AI×Claude Code_着手前プラン→実物確認→スコープ厳守→敵対的自己検証→結論先出しまで型にした仕事品質OS Skill</h3>
+          <p class="card-desc">着手前に4行のプランを書かせ、パスも数字も実物で確認させ、提出前に自分の成果物を壊しに行かせる。同じモデルのまま手順を変えるだけで、返ってくるものの質が変わる。停止と質問の作法も入っている。</p>
           <div class="card-cmd">/fable-quality-os</div>
           <div class="card-tags"><span class="card-tag">品質管理</span><span class="card-tag">作業規律</span><span class="card-tag">Claude Code</span></div>
         </div>
@@ -673,12 +673,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.009</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>09</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Claude Code_AIにブラウザを操作させるSkill</h3>
-          <p class="card-desc">APIが用意されていない管理画面でも、AIにブラウザを触らせて作業させる。どのツールを選ぶか、どこで人が承認するかまで型になっている。</p>
+          <h3 class="card-title">AI×Claude Code_ツール選定→ログイン→画面操作→フォーム入力→承認ゲート→検証まで通すブラウザ操作Skill</h3>
+          <p class="card-desc">APIが用意されていない管理画面でも、AIにブラウザを触らせて作業させる。どの手段を選ぶか、どこで人が承認するか、操作後に何で確かめるかまで型になっている。接続が切れた時の復旧手順も同梱。</p>
           <div class="card-cmd">/chrome-ops</div>
           <div class="card-tags"><span class="card-tag">ブラウザ操作</span><span class="card-tag">Chrome</span><span class="card-tag">自動化</span></div>
         </div>
@@ -689,12 +689,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.010</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>10</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Claude Code_AI環境の健康診断Skill</h3>
-          <p class="card-desc">スキルがちゃんと起動するか、定期実行が生きているか、壊れたファイルや切れた参照が無いかを、宣言ではなく実測で数えて1枚のレポートにする。</p>
+          <h3 class="card-title">AI×Claude Code_ルール汚染・スキル起動可否・自動化の生死・破損・参照切れ・容量を実測で数える6項目健康診断Skill</h3>
+          <p class="card-desc">ルールが壊れていないか、スキルがちゃんと起動するか、定期実行が生きているか、切れた参照が無いかを、宣言ではなく実測で数えて1枚のレポートにする。異常がある時だけ通知が飛ぶ。</p>
           <div class="card-cmd">/selfcare-audit</div>
           <div class="card-tags"><span class="card-tag">健康診断</span><span class="card-tag">点検</span><span class="card-tag">実測</span></div>
         </div>
@@ -705,12 +705,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.011</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>11</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Claude Code_自動化の停止を検知する見張りSkill</h3>
-          <p class="card-desc">自動化の敵は壊れることではなく、壊れたのに誰も気づかないこと。起動記録ではなく成果物の鮮度で判定して、止まっているものだけを知らせる。</p>
+          <h3 class="card-title">AI×Claude Code_定期実行の登録・有効・成果物の鮮度・台帳の抜けを判定し止まったものだけ通知する見張りSkill</h3>
+          <p class="card-desc">自動化の敵は壊れることではなく、壊れたのに誰も気づかないこと。起動記録ではなく成果物の鮮度を主の証拠にして判定し、止まっているものだけ知らせる。直し方の手順書までセットで入っている。</p>
           <div class="card-cmd">/routine-healthcheck</div>
           <div class="card-tags"><span class="card-tag">定期実行</span><span class="card-tag">監視</span><span class="card-tag">自動化</span></div>
         </div>
@@ -721,12 +721,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.012</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>12</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Codex_Codex環境構築大全</h3>
-          <p class="card-desc">Codexデスクトップの導入手順から、ローカルのSkillとナレッジをそのまま読ませる方法、Claude Codeとどう使い分けるかまで。※内容は2026年5月時点。</p>
+          <h3 class="card-title">AI×Codex_デスクトップ導入→Skills→AGENTS.md→Claude Codeとの使い分けまでCodex環境構築大全</h3>
+          <p class="card-desc">Codexデスクトップの入れ方から、手元のSkillとナレッジをそのまま読ませる方法、どの仕事をClaude Codeと分けるかまで。公式で確認できることと確認できないことを分けて書いてある。</p>
           
           <div class="card-tags"><span class="card-tag">Codex</span><span class="card-tag">環境構築</span><span class="card-tag">使い分け</span></div>
         </div>
@@ -737,12 +737,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.013</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>13</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Codex_Codex CLI標準作法Skill</h3>
-          <p class="card-desc">Codex CLIに投げる前にプロンプトを分割・最適化し、返ってきたものを品質チェックまでかける。ClaudeとCodexを1つの作業台で使い分けられる。</p>
+          <h3 class="card-title">AI×Codex_タスク分析→プロンプト分割→実行→品質チェックまでClaudeが司令塔で回すCodex CLI活用Skill</h3>
+          <p class="card-desc">投げる前に規模と参考ファイルを判定してプロンプトを分割・最適化し、返ってきたものを品質チェックまでかける。ClaudeとCodexを1つの作業台で使い分けられる。画像は専用の生成経路へ回す。</p>
           <div class="card-cmd">/codex</div>
           <div class="card-tags"><span class="card-tag">Codex</span><span class="card-tag">CLI</span><span class="card-tag">使い分け</span></div>
         </div>
@@ -753,12 +753,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.014</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>14</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Agent Skill_Skillの育て方完全解説</h3>
-          <p class="card-desc">受け取ったSkillは使った瞬間から手直しが要る。気づいたことを1行書き戻す置き場所と、直すか保留かの判断を決めて、使うほど精度が上がる状態にする。</p>
+          <h3 class="card-title">AI×Agent Skill_FB台帳の置き場所→1行の書き方→直すか保留かの判断→合格条件3行までSkillの育て方完全解説</h3>
+          <p class="card-desc">受け取ったSkillは使った瞬間から手直しが要る。気づいたことを書き戻す場所と1行の書式、その場で直すか保留にするかの分け方、合格条件の書き方まで。実際に運用している台帳2本を例として載せてある。</p>
           
           <div class="card-tags"><span class="card-tag">Agent Skill</span><span class="card-tag">改善</span><span class="card-tag">fb-log</span></div>
         </div>
@@ -769,12 +769,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.015</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>15</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Agent Skill_手作業が勝手にSkillになるSkill</h3>
-          <p class="card-desc">直前の作業から「これ毎回やってるな」を検出して、繰り返すものだけSkillに変える。一回きりの調査はスキル化せず成果物として片付ける。</p>
+          <h3 class="card-title">AI×Agent Skill_反復作業の検出→重複の束ね→再現性判定→新規作成か既存拡張かまで回収するSkill量産Skill</h3>
+          <p class="card-desc">直前の作業から「これ毎回やってるな」を検出し、繰り返すものだけSkillに変える。一回きりの調査や個別案件はスキル化せず成果物として片付けるので、使わないSkillが増えていかない。</p>
           <div class="card-cmd">/auto-skill</div>
           <div class="card-tags"><span class="card-tag">Agent Skill</span><span class="card-tag">自動生成</span><span class="card-tag">反復検出</span></div>
         </div>
@@ -785,12 +785,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.016</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>16</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Agent Skill_使うほど賢くなるFB自動反映Skill</h3>
-          <p class="card-desc">「ここが違う」と伝えるだけで、そのSkillの指示文と参照ナレッジと品質ゲートが書き換わる。同じ指摘を二度しなくてよくなる。</p>
+          <h3 class="card-title">AI×Agent Skill_対象特定→指示文の修正→参照ナレッジ更新→品質ゲート追加→全スキルへ伝播までFB自動反映Skill</h3>
+          <p class="card-desc">「ここが違う」と伝えるだけで、対象のSkillを推定して指示文と参照ナレッジと品質ゲートを書き換える。1件のフィードバックを関連する全スキルへ広げる側も同梱なので、同じ指摘を二度しなくてよくなる。</p>
           <div class="card-cmd">/FB</div>
           <div class="card-tags"><span class="card-tag">Agent Skill</span><span class="card-tag">フィードバック</span><span class="card-tag">自動改善</span></div>
         </div>
@@ -801,12 +801,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.017</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>17</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Agent Skill_自作Skillを配布物に変えるSkill</h3>
-          <p class="card-desc">自分の環境でしか動かないSkillから固有のパスやIDを抜き、セットアップ手順とZIPと配布ページまで作る。人に渡して動く状態にするところまで通す。</p>
+          <h3 class="card-title">AI×Agent Skill_属人性を抜く→セットアップ手順→ZIP化→配布ページ→配信文まで7工程で通す配布物化Skill</h3>
+          <p class="card-desc">自分の環境でしか動かないSkillから固有のパスやIDを抜き、受け取った人が詰まらない手順書と診断スクリプトを付けて、ZIPと配布ページと配信文まで作る。人に渡して実際に動く状態まで通す。</p>
           <div class="card-cmd">/skill-distribution</div>
           <div class="card-tags"><span class="card-tag">Agent Skill</span><span class="card-tag">配布</span><span class="card-tag">属人性除去</span></div>
         </div>
@@ -817,12 +817,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.018</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>18</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ナレッジ構築_ナレッジ基盤ゼロ構築Skill</h3>
-          <p class="card-desc">パーソナル・プロダクト・コンテンツの3分類でナレッジを作り切る。ここが空のままだと、後で動かすSkillが全部それっぽい一般論を書き出す。</p>
+          <h3 class="card-title">AI×ナレッジ構築_接続設定→元本の作り切り→競合調査→顧客の共通ナレッジ6項目→パーソナル/プロダクトまで一気通貫Skill</h3>
+          <p class="card-desc">ナレッジ3分類のフォルダを作り、自分の音声や動画や過去発信を元本にして、そこから顧客の共通言語・悩み・得たい未来を逆算する。ここが空のまま動かすと、他のSkillが全部それっぽい一般論を書き出す。</p>
           <div class="card-cmd">/knowledge-creator</div>
           <div class="card-tags"><span class="card-tag">ナレッジ構築</span><span class="card-tag">3分類</span><span class="card-tag">顧客理解</span></div>
         </div>
@@ -833,12 +833,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.019</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>19</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ナレッジ構築_24時間ナレッジ自動集約Skill</h3>
-          <p class="card-desc">Googleドライブ・Zoom・Loom・Plaud・Gmail・Xブックマークから一次情報を毎日ローカルへ落とし、音声と動画は文字起こしまでかけて1ファイルにする。</p>
+          <h3 class="card-title">AI×ナレッジ構築_Google・Plaud・Zoom・Loom・Xブクマの12ソースを毎日集めて文字起こしまで通す集約Skill</h3>
+          <p class="card-desc">ドキュメント・スプレッドシート・スライド・ドライブ・録音・録画・メール・ブックマークから一次情報を毎日ローカルへ落とし、音声と動画は文字起こしまでかけて1ファイルにする。失敗分は次回自動で拾い直す。</p>
           <div class="card-cmd">/knowledge-pipeline</div>
           <div class="card-tags"><span class="card-tag">ナレッジ収集</span><span class="card-tag">文字起こし</span><span class="card-tag">自動化</span></div>
         </div>
@@ -849,12 +849,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-a)" data-family="foundation">
         <div class="card-head">
           <span class="card-no flame-text">No.020</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>20</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ナレッジ構築_投げるだけで整理されるナレッジSkill</h3>
-          <p class="card-desc">思いついたこと・拾った情報をそのまま投げると、行き先を判断して既存ファイルへ追記するか新しく作る。分類を自分で考えなくてよくなる。</p>
+          <h3 class="card-title">AI×ナレッジ構築_投げるだけで行き先判定→既存へ追記→新規作成→音声動画の文字起こしまで丸ごと片付くナレッジSkill</h3>
+          <p class="card-desc">思いついたこと・拾った情報・録音をそのまま投げると、行き先を判断して既存ファイルへ追記するか新しく作る。どこに何を入れるかを自分で考えなくてよくなる。会議録の振り分けも同じ入口から通せる。</p>
           <div class="card-cmd">/knowledge</div>
           <div class="card-tags"><span class="card-tag">ナレッジ整理</span><span class="card-tag">自動分類</span></div>
         </div>
@@ -865,14 +865,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.021</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>21</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_X自動化AI Agent Team Skill</h3>
-          <p class="card-desc">記事・長文ポスト・短文ポストを、リサーチ担当と企画担当とライターが順に受け渡して仕上げる。画像と動画を紐づけたまま予約投稿まで通せる。</p>
-          
-          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">Agent Team</span><span class="card-tag">自動化</span></div>
+          <h3 class="card-title">AI×X攻略_リサーチ→企画→短文・長文・X記事→画像動画の紐づけ→入稿手順まで通すAI Agent Team Skill</h3>
+          <p class="card-desc">短文・長文・X記事の3種類を選んで書き分け、画像と動画を本文に紐づけるところまでやる。作った枚数と本文の参照数が合っているかを機械で判定するので、投稿時に画像だけ抜ける事故が起きない。</p>
+          <div class="card-cmd">/osaru-ai-x-autopilot</div>
+          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">AI Agent Team</span><span class="card-tag">予約投稿</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -881,14 +881,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.022</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>22</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_X記事12ステップ完走Skill</h3>
-          <p class="card-desc">X記事をリサーチから企画・執筆・サムネ・図解・下書き入稿・投稿まで12ステップで完走させる。途中で止まらないので記事が資産として積み上がる。</p>
-          <div class="card-cmd">/x-kiji</div>
-          <div class="card-tags"><span class="card-tag">X記事</span><span class="card-tag">ライティング</span><span class="card-tag">入稿</span></div>
+          <h3 class="card-title">AI×X攻略_X記事→完読設計→低単価コンテンツ→販売ページ下書きまで1本の線でつなぐAI Agent Team Skill</h3>
+          <p class="card-desc">無料のX記事と、そこから買ってもらう低単価コンテンツを1本の導線として設計する。一番時間をかけるのは「最後まで読ませる作り」。企画部・制作部・品質管理部・広報部の4部署が7工程で回す。</p>
+          <div class="card-cmd">/osaru-ai-x-brain</div>
+          <div class="card-tags"><span class="card-tag">X記事</span><span class="card-tag">AI Agent Team</span><span class="card-tag">低単価コンテンツ</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -897,14 +897,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.023</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>23</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_毎日のポストが尽きないネタ製造Skill</h3>
-          <p class="card-desc">直近1週間のXをリアルタイムで調べ、今伸びている型に自分の過去投稿の語彙を乗せて書く。予約投稿まで通すので毎日のネタ切れが起きない。</p>
-          <div class="card-cmd">/x-post-create</div>
-          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">投稿生成</span><span class="card-tag">予約投稿</span></div>
+          <h3 class="card-title">AI×X攻略_リサーチ→企画→執筆→サムネ→図解→CTA→入稿→全数検証→投稿まで12ステップ完走Skill</h3>
+          <p class="card-desc">X長文記事を12ステップで完走させる。入稿した記事を原稿と1行ずつ突き合わせる全数検証まで持っているので、文字の欠け・太字の抜け・画像の貼り忘れが出荷前に止まる。</p>
+          <div class="card-cmd">/x-kiji</div>
+          <div class="card-tags"><span class="card-tag">X記事</span><span class="card-tag">入稿検証</span><span class="card-tag">12ステップ</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -913,12 +913,28 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.024</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>24</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_ブックマーク全自動資産化Skill</h3>
-          <p class="card-desc">Xのブックマークを全件取り込み、1投稿1ファイルで画像・動画・OCRまで構造化保存する。溜めるだけだったブクマがそのままネタ帳になる。</p>
+          <h3 class="card-title">AI×X攻略_直近1週間のリサーチ→型の抽出→本人語彙で執筆→4本の機械監査→予約投稿まで通すSkill</h3>
+          <p class="card-desc">直近1週間の伸びているポストを取り、構造だけ抜いて自分のナレッジの言葉を乗せる。参考元の真似すぎ・実績の混同・文体・顧客インサイトの4本を機械判定してから予約投稿まで通す。</p>
+          <div class="card-cmd">/x-post-create</div>
+          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">投稿生成</span><span class="card-tag">機械監査</span></div>
+        </div>
+        <div class="card-foot">
+          <a class="btn btn-primary" href="#">受け取る →</a>
+        </div>
+      </article>
+      <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
+        <div class="card-head">
+          <span class="card-no flame-text">No.025</span>
+          <span class="card-badge">スキル</span>
+        </div>
+        <div class="card-thumb"><div class="card-thumb-ph"><span>25</span></div></div>
+        <div class="card-body">
+          <h3 class="card-title">AI×X攻略_ブックマーク全件取得→画像動画保存→OCR→1投稿1ファイル構造化→ネタ帳化まで全自動Skill</h3>
+          <p class="card-desc">X APIでブックマークを全件取り込み、画像・動画・OCRのテキストまで含めて1投稿1ファイルで保存する。溜めるだけだったブックマークが、そのまま次の投稿の一次情報になる。</p>
           <div class="card-cmd">/x-bookmarks</div>
           <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">ブックマーク</span><span class="card-tag">ナレッジ化</span></div>
         </div>
@@ -928,15 +944,15 @@ a:hover{ color:var(--accent-glow); }
       </article>
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
-          <span class="card-no flame-text">No.025</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-no flame-text">No.026</span>
+          <span class="card-badge">スキル</span>
         </div>
-        <div class="card-thumb"><div class="card-thumb-ph"><span>25</span></div></div>
+        <div class="card-thumb"><div class="card-thumb-ph"><span>26</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_伸びている投稿だけ抜き出すリサーチSkill</h3>
-          <p class="card-desc">キーワードを渡すと直近72時間・インプレッション1万以上の投稿を集め、伸びている構造まで分解する。何を書くかを勘で決めなくてよくなる。</p>
+          <h3 class="card-title">AI×X攻略_キーワード指定→直近72時間の伸び投稿収集→構造分解→競合の神ポスト日次収集まで回すSkill</h3>
+          <p class="card-desc">キーワードを渡すと直近72時間・インプレッション1万以上のポストを集め、伸びている構造まで分解する。追いかけたい競合の神ポストは毎日自動で集まり、取れなかったものは理由つきで残る。</p>
           <div class="card-cmd">/realtime-sns-research</div>
-          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">リサーチ</span><span class="card-tag">リアルタイム</span></div>
+          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">リサーチ</span><span class="card-tag">競合分析</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -944,13 +960,13 @@ a:hover{ color:var(--accent-glow); }
       </article>
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
-          <span class="card-no flame-text">No.026</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-no flame-text">No.027</span>
+          <span class="card-badge">スキル</span>
         </div>
-        <div class="card-thumb"><div class="card-thumb-ph"><span>26</span></div></div>
+        <div class="card-thumb"><div class="card-thumb-ph"><span>27</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_記事を1枚図解にして再拡散するSkill</h3>
-          <p class="card-desc">公開した記事の全体像を1枚の図解にして、誘導文つきの引用ポストまで用意する。一度で読まれなかった記事にもう一度入口を作れる。</p>
+          <h3 class="card-title">AI×X攻略_記事サムネ→挿入図解→1枚要約図解→Googleドキュメント出力→引用RT予約まで作る記事素材Skill</h3>
+          <p class="card-desc">1本の記事から、サムネ・本文中の挿入図解・全体を1枚にした要約図解・共有用のGoogleドキュメント・引用ポストまで作る。一度で読まれなかった記事に、もう一度入口を作れる。</p>
           <div class="card-cmd">/x-article-summary-diagram</div>
           <div class="card-tags"><span class="card-tag">X記事</span><span class="card-tag">図解</span><span class="card-tag">再拡散</span></div>
         </div>
@@ -960,31 +976,15 @@ a:hover{ color:var(--accent-glow); }
       </article>
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
-          <span class="card-no flame-text">No.027</span>
-          <span class="card-badge">SKILL</span>
-        </div>
-        <div class="card-thumb"><div class="card-thumb-ph"><span>27</span></div></div>
-        <div class="card-body">
-          <h3 class="card-title">AI×X攻略_競合の神ポスト日次収集Skill</h3>
-          <p class="card-desc">追いかけたい競合と神ポストを毎日自動で集め、取得できなかったものは理由つきで残す。競合ウォッチを手作業でやらなくてよくなる。</p>
-          <div class="card-cmd">/x-daily-harvest</div>
-          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">競合分析</span><span class="card-tag">日次収集</span></div>
-        </div>
-        <div class="card-foot">
-          <a class="btn btn-primary" href="#">受け取る →</a>
-        </div>
-      </article>
-      <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
-        <div class="card-head">
           <span class="card-no flame-text">No.028</span>
-          <span class="card-badge">PROMPT</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>28</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_プロフィール導線設計プロンプト</h3>
-          <p class="card-desc">プロフィール・固定ポスト・リンクの流れをまとめて設計するプロンプト。フォローされてから登録されるまでの導線が1本につながる。</p>
+          <h3 class="card-title">AI×SNS分析_集客→教育→販売→商品→LTV→SNS運用→AI活用→計測まで8観点で詰まりを特定する事業診断プロンプト</h3>
+          <p class="card-desc">事業内容・売上・集客導線・商品・リスト数を渡すと、8観点で診断が返る。詰まっている上位5つとその根拠、いま最優先で直す1つ、30日でやること、90日で整える仕組み、やらない方がいいことまで出る。</p>
           
-          <div class="card-tags"><span class="card-tag">X</span><span class="card-tag">プロフィール</span><span class="card-tag">導線</span></div>
+          <div class="card-tags"><span class="card-tag">事業診断</span><span class="card-tag">集客導線</span><span class="card-tag">ボトルネック</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -993,12 +993,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.029</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>29</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_XAPI凍結の症状別対処完全攻略</h3>
-          <p class="card-desc">X APIの取得エラー・SUSPENDED・凍結を、症状別に何をすればいいか手順で示す。自動投稿が止まった日に一から調べ直さなくて済む。</p>
+          <h3 class="card-title">AI×X攻略_SUSPENDED表示・Xアカウント凍結・Claude Codeアカウント停止を症状別に切り分ける完全攻略</h3>
+          <p class="card-desc">Xの自動投稿が止まった日に、どの症状でどこを直すかを手順で示す。開発者ページのSUSPENDED表示・アカウント本体の凍結・Claude Code側の停止を切り分けて、コピペ用プロンプトまで付いている。</p>
           
           <div class="card-tags"><span class="card-tag">X API</span><span class="card-tag">トラブル対処</span><span class="card-tag">凍結</span></div>
         </div>
@@ -1009,14 +1009,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.030</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>30</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×X攻略_X記事フルAI化ワークフロー完全解説</h3>
-          <p class="card-desc">X記事の制作を完全自動化したときの実物と、実際に動かしているスクリプトをそのまま公開する。どこまでAIに任せられるかが分かる。</p>
+          <h3 class="card-title">AI×X攻略_発端→リサーチ122件→文体解析→執筆→図解→サムネ→入稿→投稿→引用RTまで16工程の全記録</h3>
+          <p class="card-desc">X記事1本をAIだけで作り切ったときの記録を、打ったプロンプトの全文つきで出す。うまくいった所だけでなく、図解1回・サムネ3回・入稿での詰まりを含む失敗8件と、その直し方まで残してある。</p>
           
-          <div class="card-tags"><span class="card-tag">X記事</span><span class="card-tag">自動化</span><span class="card-tag">実例</span></div>
+          <div class="card-tags"><span class="card-tag">X記事</span><span class="card-tag">自動化</span><span class="card-tag">全記録</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1025,14 +1025,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.031</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>31</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_動画自動化AI Agent Team Skill</h3>
-          <p class="card-desc">リサーチ担当・企画担当・タイトル担当・構成作家・サムネ担当が順に処理を渡し、企画から台本とサムネ設計まで1本を仕上げる。工程を指示しなくていい。</p>
-          
-          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">Agent Team</span><span class="card-tag">自動化</span></div>
+          <h3 class="card-title">AI×YouTube攻略_企画→ナレッジ読込→タイトル・サムネ文言・骨組み→台本執筆→検品→共有まで7工程Agent Skill</h3>
+          <p class="card-desc">企画部・制作部・品質管理部・広報部の4部署が7工程で1本を仕上げる。参考動画は再生数÷登録者数で選び、狙う数字を型より先に決め、冒頭60秒でタイトルとサムネを回収するところまで指示書に入っている。</p>
+          <div class="card-cmd">/osaru-ai-youtube-autopilot</div>
+          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">AI Agent Team</span><span class="card-tag">台本</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1041,14 +1041,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.032</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>32</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_競合リサーチ自動化Skill</h3>
-          <p class="card-desc">キーワード検索・競合チャンネル統計・動画URL取り込みの3経路でベンチマークを集めて分析する。感覚ではなく数字で企画の当たりを付けられる。</p>
+          <h3 class="card-title">AI×YouTube攻略_キーワード検索→競合チャンネル統計→動画URL取込→拡散率分析→保存まで3モードのリサーチSkill</h3>
+          <p class="card-desc">キーワード検索・競合チャンネルの統計・動画URLの取り込みの3経路でベンチマーク動画を集めて分析し、ローカルへ保存する。ここで集めた数字が、そのまま企画と台本の一次情報になる。</p>
           <div class="card-cmd">/youtube-research</div>
-          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">競合リサーチ</span><span class="card-tag">分析</span></div>
+          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">競合リサーチ</span><span class="card-tag">ベンチマーク</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1057,12 +1057,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.033</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>33</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_月10本の企画が出続けるSkill</h3>
-          <p class="card-desc">月10本分の企画を、タイトル・サムネ文字・参考動画・骨組み・冒頭の回収案まで埋めた状態で出す。企画会議で白紙から考えなくてよくなる。</p>
+          <h3 class="card-title">AI×YouTube攻略_企画洗い出し→タイトル→サムネ文字→参考動画3本→骨組み→冒頭回収案まで月10本埋めるSkill</h3>
+          <p class="card-desc">月10本分の企画提案シートを、タイトル・サムネ文字案・参考動画3本・動画の骨組み・冒頭の回収案まで埋めた状態で出す。企画会議に白紙で入らなくてよくなる。</p>
           <div class="card-cmd">/youtube-planning</div>
           <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">企画</span><span class="card-tag">サムネ文字</span></div>
         </div>
@@ -1073,14 +1073,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.034</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>34</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_撮るだけの台本量産Skill</h3>
-          <p class="card-desc">確定した企画から撮影用の台本・話す実例・スライド化素材まで作り切る。あとはカメラの前で読み上げるだけの状態になるので撮影が止まらない。</p>
+          <h3 class="card-title">AI×YouTube攻略_確定企画→撮影用台本→話す実例→スライド化素材→公開時の誘導配信文まで作り切るSkill</h3>
+          <p class="card-desc">確定した企画から、カメラの前で読み上げられる台本・話す実例・スライドにする素材まで作り切る。公開直後の初速を作るX用とLINE用の誘導文も同時に出るので、撮影と告知が別作業にならない。</p>
           <div class="card-cmd">/youtube-script</div>
-          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">台本</span><span class="card-tag">撮影</span></div>
+          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">台本</span><span class="card-tag">誘導配信文</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1089,14 +1089,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.035</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>35</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_台本から撮影用スライド生成Skill</h3>
-          <p class="card-desc">台本の中の「スライド化素材」から撮影用スライド原稿を作り、URLを進捗シートへ書き戻す。台本づくりとスライドづくりが別作業にならない。</p>
+          <h3 class="card-title">AI×YouTube攻略_台本→撮影用スライド原稿→保存版資料HTML→GitHub Pages公開→進捗シート反映までSkill</h3>
+          <p class="card-desc">台本の「スライド化素材」から撮影用スライド原稿を作り、視聴者に配る保存版資料は1枚もののHTMLにしてGitHub Pagesで公開する。完成したURLは進捗管理シートへ自動で書き戻る。</p>
           <div class="card-cmd">/youtube-slide</div>
-          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">スライド</span><span class="card-tag">撮影</span></div>
+          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">スライド</span><span class="card-tag">保存版資料</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1105,14 +1105,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.036</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>36</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_週1投稿が止まらない進捗管理Skill</h3>
-          <p class="card-desc">シート・チャット・API・カレンダーから進捗を実測し、遅れているところだけ催促して報告まで出す。週1投稿が人の記憶に依存しなくなる。</p>
+          <h3 class="card-title">AI×YouTube攻略_進捗の実測診断→遅れ検出→催促→報告→仕組み自体の健康診断まで週1投稿を止めないSkill</h3>
+          <p class="card-desc">シート・チャット・YouTube API・カレンダー・Driveから進捗を実測し、遅れている所だけを拾って1本の報告にまとめる。列のずれや担当者の解決失敗といった、管理の仕組み自体の故障も点検する。</p>
           <div class="card-cmd">/yt-ops</div>
-          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">進捗管理</span><span class="card-tag">運用</span></div>
+          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">進捗管理</span><span class="card-tag">週1投稿</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1121,12 +1121,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.037</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>37</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_vidIQ完全攻略</h3>
-          <p class="card-desc">キーワード調査・外れ値動画の発掘・タイトルとサムネの採点・競合ウォッチまで、vidIQを毎日の運用に組み込む手順一式。数字を見てから撮れるようになる。</p>
+          <h3 class="card-title">AI×YouTube攻略_キーワード調査→外れ値動画の発掘→タイトル採点→サムネ採点→競合ウォッチまでvidIQ完全攻略</h3>
+          <p class="card-desc">vidIQをGUIではなくMCP経由で使い倒す手順一式。キーワードの需要・伸びている外れ値動画・タイトルとサムネの点数・競合の動きを、撮る前に数字で確かめられる。</p>
           <div class="card-cmd">/vidiq</div>
           <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">vidIQ</span><span class="card-tag">数値分析</span></div>
         </div>
@@ -1137,14 +1137,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.038</span>
-          <span class="card-badge">PROMPT</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>38</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×YouTube攻略_台本の骨組みが埋まるプロンプト</h3>
-          <p class="card-desc">テーマを渡すと導入・本編・まとめの骨組みと話す順番が埋まる台本プロンプト。真っ白な画面の前で書き出しに詰まる時間がなくなる。</p>
+          <h3 class="card-title">AI×YouTube攻略_横動画・ショート・企画会議・タイトル・サムネ・概要欄まで4モードで埋まる台本プロンプト</h3>
+          <p class="card-desc">テーマを渡すと、横動画・ショート・企画出し・サムネ設計の4モードで骨組みと話す順番が埋まる。真っ白な画面の前で書き出しに詰まる時間がなくなる。</p>
           
-          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">台本</span><span class="card-tag">プロンプト</span></div>
+          <div class="card-tags"><span class="card-tag">YouTube</span><span class="card-tag">台本</span><span class="card-tag">4モード</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1153,14 +1153,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.039</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>39</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Instagram_運用自動化AI Agent Team Skill</h3>
-          <p class="card-desc">フィード・ストーリーズ・リール・競合分析を、担当ごとに分けた社員が順に回す。どれから手を付けるかを毎朝考えなくてよくなる。</p>
-          
-          <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">Agent Team</span><span class="card-tag">自動化</span></div>
+          <h3 class="card-title">AI×Instagram_リール・フィード・ストーリーズの企画→台本→画像の文字指定→検品→共有まで7工程Agent Skill</h3>
+          <p class="card-desc">4部署のチームが7工程で回す。背景を1枚だけ生成して文字はローカルで合成する作り方まで指示書に入っているので、画像生成の費用がかからず、日本語が濁点落ちや別字に化けない。</p>
+          <div class="card-cmd">/osaru-ai-instagram-autopilot</div>
+          <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">AI Agent Team</span><span class="card-tag">画像合成</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1169,12 +1169,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.040</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>40</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Instagram_リール台本59項目チェックSkill</h3>
-          <p class="card-desc">バズリール分析と自分の一次情報を混ぜて台本を書き、8カテゴリ59項目の検査を通してから出す。感覚で出して滑る回数が目に見えて減る。</p>
+          <h3 class="card-title">AI×Instagram_バズリール収集→構造分析→一次情報マージ→本人語彙で台本→8カテゴリ59項目チェックまで通すSkill</h3>
+          <p class="card-desc">キーワードを指定してバズっているリールを集め、構造を分析してから自分の一次情報と混ぜて台本を書く。出す前に8カテゴリ59項目の検査を通すので、感覚で出して滑る回数が減る。</p>
           <div class="card-cmd">/instagram-reel</div>
           <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">リール</span><span class="card-tag">品質チェック</span></div>
         </div>
@@ -1185,14 +1185,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.041</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>41</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Instagram_保存されるカルーセル設計Skill</h3>
-          <p class="card-desc">カルーセル10枚または単一画像とキャプションを、10ステップの統一手順で設計する。保存されるかどうかを枚数の並びから決められる。</p>
+          <h3 class="card-title">AI×Instagram_カルーセル10枚・単一画像・キャプション・ストーリーズ・毎日の運用順まで設計する10ステップSkill</h3>
+          <p class="card-desc">保存される投稿の型を10ステップで設計する。カルーセル10枚の並び・キャプション・24時間で消えるストーリーズの3〜4枚構成・その日どれから手を付けるかの順番まで、1本で決まる。</p>
           <div class="card-cmd">/instagram-feed</div>
-          <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">カルーセル</span><span class="card-tag">フィード</span></div>
+          <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">カルーセル</span><span class="card-tag">ストーリーズ</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1201,14 +1201,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.042</span>
-          <span class="card-badge">PROMPT</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>42</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Instagram_フィードとストーリーの型出しプロンプト</h3>
-          <p class="card-desc">フィードとストーリーズの投稿の型をまとめて出すプロンプト。何を投稿するかではなく、どの型で出すかから決められるようになる。</p>
+          <h3 class="card-title">AI×Instagram_リール・カルーセル・ストーリー・LIVEの4形式を台本と表紙案まで出す投稿設計プロンプト</h3>
+          <p class="card-desc">リール・カルーセル・ストーリー・LIVEのどれかを選ぶと、その形式の台本と表紙案がまとめて出る。何を投稿するかではなく、どの型で出すかから決められるので、見た瞬間に理解できる設計に寄る。</p>
           
-          <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">投稿の型</span><span class="card-tag">プロンプト</span></div>
+          <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">投稿の型</span><span class="card-tag">4形式</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1217,12 +1217,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.043</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>43</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Instagram_インスタAI運用完全攻略</h3>
-          <p class="card-desc">インスタをAIで回すための考え方と手順を、セミナー1本分のテキストで全部渡す。運用の型を先に入れてからSkillを使えるようになる。</p>
+          <h3 class="card-title">AI×Instagram_アカウント設計→リール→フィード→ストーリーズ→実演までスライド31枚のインスタAI完全攻略</h3>
+          <p class="card-desc">インスタをAIで回すための考え方と手順を、セミナー1本分のテキストで全部渡す。31枚のうち13枚が実演なので、運用の型を入れてからSkillを使う順番で身に付く。</p>
           
           <div class="card-tags"><span class="card-tag">Instagram</span><span class="card-tag">セミナー全文</span><span class="card-tag">運用の型</span></div>
         </div>
@@ -1233,14 +1233,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.044</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>44</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Threads_企画から予約原稿まで通すSkill</h3>
-          <p class="card-desc">企画・生成・校正・品質ゲート・予約原稿づくりまでを一括で通す。Xとは別の書き分けが要るThreadsを、片手間でも続けられる。</p>
+          <h3 class="card-title">AI×Threads_企画→生成→校正→品質ゲート→予約原稿→競合の勝ち型抽出まで一括で通す運用Skill</h3>
+          <p class="card-desc">単発・教育・長文画像・スレッド・カレンダー・X流用まで、Threadsの投稿形式を一通り書き分ける。競合の投稿から勝ちパターンを抜き出して自分の投稿案に変えるところまで同梱。</p>
           <div class="card-cmd">/threads</div>
-          <div class="card-tags"><span class="card-tag">Threads</span><span class="card-tag">投稿生成</span><span class="card-tag">予約</span></div>
+          <div class="card-tags"><span class="card-tag">Threads</span><span class="card-tag">投稿生成</span><span class="card-tag">競合分析</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1249,14 +1249,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.045</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>45</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×Substack_開設30日完全攻略</h3>
-          <p class="card-desc">Publication名・Bio・ウェルカムメール・日本語化・導線・30日ロードマップまで、開設から軌道に乗せるまでを設計する。</p>
+          <h3 class="card-title">AI×Substack_開設→Bio→ウェルカムメール→週1記事→Notes→数値レビュー→X資産の転用まで30日完全攻略</h3>
+          <p class="card-desc">Publication名・Bio・ウェルカムメール・日本語化・購読フォーム・導線を設計してから、週1記事とNotesの執筆、購読者数と開封率のレビュー、既存X投稿の流し込みまで6本のSkillでつなぐ。</p>
           <div class="card-cmd">/substack-launch-planning</div>
-          <div class="card-tags"><span class="card-tag">Substack</span><span class="card-tag">開設</span><span class="card-tag">ロードマップ</span></div>
+          <div class="card-tags"><span class="card-tag">Substack</span><span class="card-tag">開設</span><span class="card-tag">30日ロードマップ</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1265,14 +1265,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.046</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>46</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ショート動画_ショートライティングSkill</h3>
-          <p class="card-desc">TikTok・リール・YouTubeショートを横断して、冒頭で離脱されない構成のショート台本を量産する。尺と口調を媒体ごとに変えて出す。</p>
-          
-          <div class="card-tags"><span class="card-tag">ショート動画</span><span class="card-tag">台本</span><span class="card-tag">冒頭フック</span></div>
+          <h3 class="card-title">AI×ショート動画_尺決め→締め→本編→冒頭2秒→ブリッジ→音読での検品→共有まで7工程で書き切るAgent Skill</h3>
+          <p class="card-desc">YouTubeショート・リール・TikTokの縦型台本を、書く順番を固定して仕上げる。冒頭を最初にも最後にも書かせない。15/30/60/90秒の尺に収め、声に出して息継ぎできない所を切ってから出す。</p>
+          <div class="card-cmd">/osaru-ai-shorts-writer</div>
+          <div class="card-tags"><span class="card-tag">ショート動画</span><span class="card-tag">冒頭2秒</span><span class="card-tag">AI Agent Team</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1281,14 +1281,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.047</span>
-          <span class="card-badge">PROMPT</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>47</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ショート動画_売れる動画広告台本プロンプト</h3>
-          <p class="card-desc">ストーリーの型に沿って動画の台本を出すプロンプト。何を言うかではなく、どの順番で見せるかから組み立てられるので撮り直しが減る。</p>
+          <h3 class="card-title">AI×ショート動画_獲得広告・教育広告のフック5案→台本→テロップ→画面展開まで出す動画広告プロンプト</h3>
+          <p class="card-desc">広告の種類を選ぶと、フックが5案出てから台本・テロップ・画面展開まで並ぶ。何を言うかではなく、どの順番で見せるかから組み立てられるので撮り直しが減る。</p>
           
-          <div class="card-tags"><span class="card-tag">ショート動画</span><span class="card-tag">動画広告</span><span class="card-tag">プロンプト</span></div>
+          <div class="card-tags"><span class="card-tag">ショート動画</span><span class="card-tag">動画広告</span><span class="card-tag">フック5案</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1297,14 +1297,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.048</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>48</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×動画編集_素材から書き出しまで一気通貫Skill</h3>
-          <p class="card-desc">素材の取り込みから文字起こし・話者判別・カット設計・色変換・テロップ焼き込み・検証までを一本の流れで通す。編集ソフトを開かずに1本仕上がる。</p>
+          <h3 class="card-title">AI×動画編集_素材取込→文字起こし→話者判別→カット設計→色変換→テロップ焼き込み→検証まで一気通貫Skill</h3>
+          <p class="card-desc">撮って出しの実写動画を、編集ソフトを開かずに1本仕上げる。日本語テロップは文節の切れ目で19文字前後に割って焼き込み、iPhoneのHDR素材は色が破綻しないSDRへ変換してから通す。</p>
           <div class="card-cmd">/video-edit</div>
-          <div class="card-tags"><span class="card-tag">動画編集</span><span class="card-tag">自動化</span><span class="card-tag">カット</span></div>
+          <div class="card-tags"><span class="card-tag">動画編集</span><span class="card-tag">テロップ</span><span class="card-tag">一気通貫</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1313,14 +1313,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.049</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>49</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×動画編集_日本語テロップ自動焼き込みSkill</h3>
-          <p class="card-desc">文節の切れ目で19文字前後に割り、太字・白フチ・影のテロップを動画へ焼き込む。テロップ入れだけで潰れていた時間が返ってくる。</p>
-          <div class="card-cmd">/video-telop</div>
-          <div class="card-tags"><span class="card-tag">動画編集</span><span class="card-tag">テロップ</span><span class="card-tag">日本語</span></div>
+          <h3 class="card-title">AI×ショート動画_長尺動画→切り抜き3〜5本→フック文→X記事化→図解→引用RT予約まで通す転用Skill</h3>
+          <p class="card-desc">撮った長尺動画1本から、切り抜きを3〜5本作ってフック文を付け、引用ポストの下書きまで登録する。同じ動画をX記事・図解・サムネ・CTAへ展開する経路も同梱。</p>
+          <div class="card-cmd">/x-kirinuki-quote</div>
+          <div class="card-tags"><span class="card-tag">切り抜き</span><span class="card-tag">転用</span><span class="card-tag">引用RT</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1329,14 +1329,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.050</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>50</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×画像生成_図解・バナー高画質生成Skill</h3>
-          <p class="card-desc">図解・サムネ・バナー・OGP・LP素材を高画質で作る。参照画像を渡して既存デザインに寄せた編集もできるので、トンマナが崩れない。</p>
+          <h3 class="card-title">AI×画像生成_図解・サムネ・バナー・OGP・LP素材の高画質生成→参照画像編集→FBの制約化まで通すSkill</h3>
+          <p class="card-desc">OpenAI Images API の gpt-image-2 で高画質生成し、参照画像を渡して既存デザインへ寄せた編集もできる。過去のFBをKEEP/CHANGE/DELETE/EDGEに分類して制約にするので、尖った指示が平均化されない。</p>
           <div class="card-cmd">/image</div>
-          <div class="card-tags"><span class="card-tag">画像生成</span><span class="card-tag">図解</span><span class="card-tag">バナー</span></div>
+          <div class="card-tags"><span class="card-tag">画像生成</span><span class="card-tag">gpt-image-2</span><span class="card-tag">図解</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1345,12 +1345,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.051</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>51</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×画像生成_画像生成トラブル対処完全攻略</h3>
-          <p class="card-desc">透過PNGが作れない・指定したモデルが使われない・文字が化けるといった詰まりを、症状別に直し方まで示す。生成が止まる日をなくす。</p>
+          <h3 class="card-title">AI×画像生成_透過PNGが作れない・指定モデルが使われない・日本語が化けるを症状別に直す完全攻略</h3>
+          <p class="card-desc">画像生成が止まる日を作らないための対処集。透過の抜け方2通り、モデルが勝手に落とされる時の逃げ道のふさぎ方、うまくいった言い方をその場で手順書にする方法まで、コピペ用プロンプト付き。</p>
           
           <div class="card-tags"><span class="card-tag">画像生成</span><span class="card-tag">トラブル対処</span><span class="card-tag">透過PNG</span></div>
         </div>
@@ -1361,12 +1361,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.052</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>52</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×サムネイル_そのまま発注できるサムネ文言Skill</h3>
-          <p class="card-desc">文字サイズの階層【XL/L/M/S】まで決めたサムネ文言を出す。デザイナーや外注さんがそのまま作れる形で渡せるので、やり直しが減る。</p>
+          <h3 class="card-title">AI×サムネイル_一次情報から文言抽出→XL/L/M/Sの文字サイズ階層→そのまま発注できる指示書まで作るSkill</h3>
+          <p class="card-desc">文字起こし・チャットログ・台本だけを根拠にサムネの文言を設計し、文字サイズの階層まで指定する。デザイナーや外注さんがそのまま作れる形で渡せるので、やり直しが減る。</p>
           <div class="card-cmd">/taidan-thumbnail-text</div>
           <div class="card-tags"><span class="card-tag">サムネイル</span><span class="card-tag">文言設計</span><span class="card-tag">外注</span></div>
         </div>
@@ -1377,14 +1377,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.053</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>53</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ライティング_発信が自分に寄り続ける改善Skill</h3>
-          <p class="card-desc">実際に投稿したものを正解データにして、文体の正本と各スキルのズレを毎日検出して反映する。使うほど発信が自分の言い方に寄っていく。</p>
+          <h3 class="card-title">AI×ライティング_投稿実物の解析→文体正本とのズレ検出→スキルへ自動反映→媒体別の書き分けまで通すSkill</h3>
+          <p class="card-desc">実際に投稿した文章を正解データにして、文体の正本と各スキルのズレを毎日検出し、直し方が一つに決まるものはその場で反映する。使うほど発信が自分の言い方に寄っていく。</p>
           <div class="card-cmd">/voice-autoloop</div>
-          <div class="card-tags"><span class="card-tag">文体</span><span class="card-tag">自動改善</span><span class="card-tag">トンマナ</span></div>
+          <div class="card-tags"><span class="card-tag">文体</span><span class="card-tag">自動改善</span><span class="card-tag">媒体別</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1393,14 +1393,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.054</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>54</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×SNS分析_伸びた動画の作り方を丸裸にするSkill</h3>
-          <p class="card-desc">動画をAI解析にかけて、素材の種類・カット割り・構成・ナレーション・字幕の様式まで分解する。伸びた動画の作り方が全部見える。</p>
+          <h3 class="card-title">AI×SNS分析_素材種別→カット割り→構成→ナレーション→字幕様式→サムネまで伸びた動画を丸裸にするSkill</h3>
+          <p class="card-desc">参考にしたい動画をAI解析にかけて、実写かAI生成か・カットの割り方・音声が人間かTTSか・字幕の様式まで実測で分解する。数字が出ている事例だけを根拠に、採用と却下を判断できる形で残る。</p>
           <div class="card-cmd">/video-analysis</div>
-          <div class="card-tags"><span class="card-tag">分析</span><span class="card-tag">動画解析</span><span class="card-tag">構成</span></div>
+          <div class="card-tags"><span class="card-tag">分析</span><span class="card-tag">動画解析</span><span class="card-tag">ベンチマーク</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1409,12 +1409,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-b)" data-family="broadcast">
         <div class="card-head">
           <span class="card-no flame-text">No.055</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>55</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×外注化_納期リマインド自動送信Skill</h3>
-          <p class="card-desc">編集担当やサムネ担当へ、納期を見て必要な人にだけリマインドを自動で送る。催促の連絡を毎回自分で書かなくても外注が回るようになる。</p>
+          <h3 class="card-title">AI×外注化_納期の節目検出→担当者へメンション→催促文→チャットの決定を管理シートへ反映まで通すSkill</h3>
+          <p class="card-desc">投稿予定日の2週間前・1週間前・3日前・前日の節目と納期の超過を検出して、必要な人にだけ催促を送る。チャットで決まった納期変更や担当の割り当ては、管理シートへ自動で戻る。</p>
           <div class="card-cmd">/yt-remind</div>
           <div class="card-tags"><span class="card-tag">外注</span><span class="card-tag">リマインド</span><span class="card-tag">納期管理</span></div>
         </div>
@@ -1425,14 +1425,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.056</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>56</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_ローンチ全タスク一撃構築Skill</h3>
-          <p class="card-desc">専用プロジェクトを切って、市場と競合を調べ、コンセプトを立て、ローンチの全タスクを台本ごと一括で出す。STEP A〜Kを順に発火させる。</p>
+          <h3 class="card-title">AI×ローンチファネル_市場リサーチ→競合リサーチ→コンセプト設計→ローンチ全タスク台本まで一撃構築Agent Skill</h3>
+          <p class="card-desc">専用プロジェクトを切るところから、市場と競合を調べ、コンセプトを立て、ローンチに要る制作物のタスクと台本まで一気に出す。STEP A〜Kを順に発火させ、サブエージェントで並列量産するところまで通す。</p>
           
-          <div class="card-tags"><span class="card-tag">ローンチ</span><span class="card-tag">タスク構築</span><span class="card-tag">コンセプト</span></div>
+          <div class="card-tags"><span class="card-tag">ローンチ</span><span class="card-tag">タスク一括生成</span><span class="card-tag">コンセプト設計</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1441,12 +1441,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.057</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>57</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_ローンチ進行ガント自動生成Skill</h3>
-          <p class="card-desc">ローンチの制作物・配信・セミナーをカード化し、着手日と締切からガントチャートまで引く。誰が何をいつまでにやるかが1枚になる。</p>
+          <h3 class="card-title">AI×ローンチファネル_ボード作成→カード起票→担当・期限→進捗→ガントチャートまで全操作Agent Skill</h3>
+          <p class="card-desc">ローンチの制作物・配信・セミナーをカードにして、担当と期限を入れ、ガントチャートまで引く。誰が何をいつまでにやるかが1枚になり、止まっている工程がそのまま目で分かる。</p>
           <div class="card-cmd">/trello</div>
           <div class="card-tags"><span class="card-tag">進行管理</span><span class="card-tag">ガント</span><span class="card-tag">Trello</span></div>
         </div>
@@ -1457,14 +1457,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.058</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>58</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_ローンチタスク分解Skill</h3>
-          <p class="card-desc">やることの塊を、担当と締切がついた粒度まで割って仕分けする。進捗は1本の台帳に戻るので、止まっている工程が目で分かる。</p>
-          <div class="card-cmd">/tasks</div>
-          <div class="card-tags"><span class="card-tag">タスク分解</span><span class="card-tag">進捗</span><span class="card-tag">ローンチ</span></div>
+          <h3 class="card-title">AI×ローンチファネル_既存リスト・メルマガ・LINE・外部講師・アンバサダー・オプチャの6宛先へ配信文一括作成Skill</h3>
+          <p class="card-desc">同じ告知でも、既存リストと外部講師とアンバサダーでは刺さる書き方が違う。宛先ごとに前回との差分・切り口・CTAを分けて、ローンチ期間の告知文をまとめて書き出す。</p>
+          
+          <div class="card-tags"><span class="card-tag">ローンチ配信</span><span class="card-tag">告知文</span><span class="card-tag">リスト</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1473,14 +1473,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.059</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>59</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_締切リマインド全自動化Skill</h3>
-          <p class="card-desc">準備が要る予定は1週間前から毎朝、当日は3時間前と1時間前に通知する。ローンチ中の配信・セミナー・締切を落とさない。</p>
+          <h3 class="card-title">AI×ローンチファネル_全体像→おさる式ファネル10パターン→オプトイン→配信→ティザーまで徹底解説</h3>
+          <p class="card-desc">ローンチの全体像から、おさる式ローンチファネル10パターン、オプトイン・配信・ティザーの作り込み、実演、自分の事業への当てはめまで通した講義台本。Part0〜Part10の全スライド表示テキストが入っている。</p>
           
-          <div class="card-tags"><span class="card-tag">リマインド</span><span class="card-tag">スケジュール</span><span class="card-tag">自動化</span></div>
+          <div class="card-tags"><span class="card-tag">プロダクトローンチ</span><span class="card-tag">ファネル</span><span class="card-tag">講義</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1489,14 +1489,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.060</span>
-          <span class="card-badge">SHEET</span>
+          <span class="card-badge">テンプレート</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>60</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_新商品立ち上げ完全チェックシート</h3>
-          <p class="card-desc">商品の実体づくりからオンボーディング・CS対応・返金ポリシー・リリース前テストまで、抜けたら事故になる工程をチェック式で並べてある。</p>
+          <h3 class="card-title">AI×コンテンツ販売_企画→台本→スライド→配信準備→アーカイブ→フォロー→振り返りまで10工程セミナー完全テンプレート</h3>
+          <p class="card-desc">セミナー1本で必要になるフォルダと成果物を、企画から次回への改善まで10工程ぶん先に用意してある。参加者データと返信フォローの置き場所まで決まっているので、当日までに何が要るかで迷わない。</p>
           
-          <div class="card-tags"><span class="card-tag">商品設計</span><span class="card-tag">チェックリスト</span><span class="card-tag">立ち上げ</span></div>
+          <div class="card-tags"><span class="card-tag">セミナー</span><span class="card-tag">テンプレート</span><span class="card-tag">運営</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1505,12 +1505,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.061</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>61</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_セールスファネル設計 完全解説</h3>
-          <p class="card-desc">集客から申込までの導線を、どの順番で何を見せるかまで分解した講義台本とスライド。自分のファネルのどこが抜けているかが分かる。</p>
+          <h3 class="card-title">AI×ローンチファネル_企画発案→セールス設計→特典設計→ファネル制作→導線開通→分析まで8ステップ完全解説</h3>
+          <p class="card-desc">集客からリスト取得・教育・セミナー・個別相談・販売までの導線を、8ステップに割って解説した講義台本とスライド。特典を渡すタイミングとCTAの入れ方を独立したパートで扱っている。</p>
           
           <div class="card-tags"><span class="card-tag">ファネル設計</span><span class="card-tag">導線</span><span class="card-tag">講義</span></div>
         </div>
@@ -1521,12 +1521,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.062</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>62</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_オプトインLP一撃作成Skill</h3>
-          <p class="card-desc">既存LPのデザインを踏襲したまま、見出し・ベネフィット・登録フォームまで通したオプトインLPを作る。ゼロから組み直さなくていい。</p>
+          <h3 class="card-title">AI×ローンチファネル_ターゲットの悩み→オファー設計→LP構成→ヘッドライン→CTAまで一撃構築Agent Skill</h3>
+          <p class="card-desc">既存LPのデザインを踏襲したまま、誰のどの悩みに当てるかから、オファー・見出し・ベネフィット・登録フォーム・CTAまで通したオプトインLPを作る。デザイナーに渡す依頼メモも一緒に出る。</p>
           
           <div class="card-tags"><span class="card-tag">LP</span><span class="card-tag">オプトイン</span><span class="card-tag">登録導線</span></div>
         </div>
@@ -1537,12 +1537,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.063</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>63</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_特典一覧ページ量産Skill</h3>
-          <p class="card-desc">特典を一覧で見せるHTMLページを作る。数が増えても崩れない構成で、コピーとリンクとサムネを流し込むだけで1枚になる。</p>
+          <h3 class="card-title">AI×ローンチファネル_特典コピー→サムネ→カード→CTAボタン→GitHub Pages公開まで通す特典サイト量産Skill</h3>
+          <p class="card-desc">特典を一覧で見せるページを作る。ログイン無しでリンクから直接開ける形で、コピー・サムネ・リンク・CTAボタンを流し込むだけ。20個でも100個でも崩れない構成で1枚になる。</p>
           
           <div class="card-tags"><span class="card-tag">特典ページ</span><span class="card-tag">HTML</span><span class="card-tag">オファー</span></div>
         </div>
@@ -1553,12 +1553,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.064</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>64</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_UTAGEファネル自動構築Skill</h3>
-          <p class="card-desc">ファネル・ステップ・ページ・配信シナリオ・会員サイトをAPIで直接作る。管理画面をクリックして回っていた作業がそのまま消える。</p>
+          <h3 class="card-title">AI×ローンチファネル_ファネル・LP・ステップ・シナリオ・メルマガ・LINE配信・会員サイトをAPIで一括構築Skill</h3>
+          <p class="card-desc">管理画面をクリックして回っていた作業がそのまま消える。ファネルもステップもページも配信シナリオも、会員サイトのコースとレッスンまで、UTAGE APIから直接作って直せる。</p>
           <div class="card-cmd">/utage</div>
           <div class="card-tags"><span class="card-tag">UTAGE</span><span class="card-tag">ファネル</span><span class="card-tag">API</span></div>
         </div>
@@ -1569,12 +1569,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.065</span>
-          <span class="card-badge">TEMPLATE</span>
+          <span class="card-badge">テンプレート</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>65</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ライティング_特典キャッチコピー5要素テンプレート</h3>
-          <p class="card-desc">フック・対応範囲・独自実績・ベネフィット・メインコピーの5つを埋めると特典名が決まる。中身より先にコピーを固める順番で作る。</p>
+          <h3 class="card-title">AI×ライティング_フック→対応範囲→独自実績→ベネフィット→メインコピーで特典名が決まる5要素テンプレート</h3>
+          <p class="card-desc">5つの枠を埋めると特典名が決まる。中身より先にコピーを固める順番なので、期待値の高いものから逆算して中身を作れる。講座内のリードマグネット完全攻略セミナー全93枚で解説した型そのもの。</p>
           
           <div class="card-tags"><span class="card-tag">コピー</span><span class="card-tag">特典設計</span><span class="card-tag">テンプレ</span></div>
         </div>
@@ -1585,12 +1585,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.066</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>66</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_UTAGE×AI申込導線 完全攻略</h3>
-          <p class="card-desc">申込ページから決済・会員サイトまでをUTAGEで組む工程を、実演つきで最後まで通した講義。全文文字起こしと資料83枚が付く。</p>
+          <h3 class="card-title">AI×ローンチファネル_申込ページ→決済→会員登録→講座配信→サポート導線までUTAGEで通す完全攻略</h3>
+          <p class="card-desc">申込から決済、会員サイトへの登録、講座の配信、サポートの導線までをUTAGEで組む工程を、実演つきで最後まで通した講義。全文の文字起こしと資料83枚が付いたアーカイブごと渡す。</p>
           
           <div class="card-tags"><span class="card-tag">UTAGE</span><span class="card-tag">申込導線</span><span class="card-tag">決済</span></div>
         </div>
@@ -1601,12 +1601,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.067</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>67</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×LINE攻略_公式LINE配信 全自動生成Skill</h3>
-          <p class="card-desc">公式LINE・UTAGE経由配信・オープンチャットの配信文と画像を作る。セミナー集客もローンチ告知も同じ1本で回せる。</p>
+          <h3 class="card-title">AI×LINE攻略_リストマーケ・公式LINE配信・オプチャ・セミナー集客・ローンチ告知まで全部書くAgent Skill</h3>
+          <p class="card-desc">公式LINE、UTAGE経由の配信、オープンチャットを、役割・口調・フック・CTAを分けて書き分ける。セミナー集客もローンチ告知もフロント配信も、画像つきの送客文まで同じ1本で出せる。</p>
           <div class="card-cmd">/LINE-haishin-Skill</div>
           <div class="card-tags"><span class="card-tag">LINE</span><span class="card-tag">配信文</span><span class="card-tag">集客</span></div>
         </div>
@@ -1617,12 +1617,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.068</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>68</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×LINE攻略_リッチメニュー動線クリエイティブ設計Skill</h3>
-          <p class="card-desc">リッチメニューとリッチメッセージを、押させたい行動から逆算して設計する。友だち追加のあとに迷わせない動線が作れる。</p>
+          <h3 class="card-title">AI×LINE攻略_リッチメニュー→リッチメッセージ→タップ領域→LP誘導→リンク対応表まで設計する動線Skill</h3>
+          <p class="card-desc">LINEの画像をきれいなバナーで終わらせず、押させたい行動から逆算して作る。登録直後・セミナー前後・販売・CS・既存会員で導線を出し分け、画像はgpt-image-2で生成する。</p>
           
           <div class="card-tags"><span class="card-tag">リッチメニュー</span><span class="card-tag">LINE動線</span><span class="card-tag">クリエイティブ</span></div>
         </div>
@@ -1633,14 +1633,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.069</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>69</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×LINE攻略_オープンチャット誘導配信文作成Skill</h3>
-          <p class="card-desc">記事を公開したあとに、オープンチャットへ流す誘導文を作って保存する。読んだ人が次に動く一言まで込みで出てくる。</p>
+          <h3 class="card-title">AI×LINE攻略_オープンチャット立ち上げ→特典設置→固定ポスト→誘導配信文→禁止ワード対策まで1日完全攻略</h3>
+          <p class="card-desc">無料で立ち上げて、ノートに特典リンクを置き、固定ポスト・ハイライト・YouTube概要欄から人を流すところまでの手順。投資勧誘を弾く禁止ワードとスパムフィルター、管理者権限の付け方まで入っている。</p>
           <div class="card-cmd">/openchat-article-delivery</div>
-          <div class="card-tags"><span class="card-tag">オープンチャット</span><span class="card-tag">誘導</span><span class="card-tag">配信文</span></div>
+          <div class="card-tags"><span class="card-tag">オープンチャット</span><span class="card-tag">立ち上げ</span><span class="card-tag">リスト取り</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1649,12 +1649,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.070</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>70</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ライティング_メルマガ・LINE配信文の量産Skill</h3>
-          <p class="card-desc">LINE・メルマガ・オープンチャット・ローンチ配信の文面をまとめて書く。媒体ごとに長さと呼びかけを切り替えて出す。</p>
+          <h3 class="card-title">AI×ライティング_メルマガ・LINE・オプチャ・ローンチ配信・アンバサダー案内文を目的別に量産するSkill</h3>
+          <p class="card-desc">配信ごとに目的とCTAを先に固定してから書くので、毎回の文面がぶれない。媒体ごとに長さと呼びかけを切り替えて、メルマガもLINEもオープンチャットもローンチ配信も1本でまとめて出せる。</p>
           <div class="card-cmd">/list-writing-engine</div>
           <div class="card-tags"><span class="card-tag">メルマガ</span><span class="card-tag">配信</span><span class="card-tag">ライティング</span></div>
         </div>
@@ -1665,12 +1665,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.071</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>71</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ローンチファネル_予約配信の一括登録と監査Skill</h3>
-          <p class="card-desc">配信の予約を一括で登録して、予約一覧をあとから突き合わせて監査する。ローンチ期間の何十本もの配信を送り忘れなく並べられる。</p>
+          <h3 class="card-title">AI×ローンチファネル_リマインドを複数日・大量に予約→送信→予約一覧を突合監査まで通す配信管理Skill</h3>
+          <p class="card-desc">ローンチ期間の何十本もの配信を、日付と時刻を並べて一括で予約する。予約一覧をあとから突き合わせて監査するので、送り忘れと二重送信がその場で分かる。</p>
           <div class="card-cmd">/chatwork</div>
           <div class="card-tags"><span class="card-tag">予約配信</span><span class="card-tag">配信管理</span><span class="card-tag">監査</span></div>
         </div>
@@ -1681,14 +1681,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.072</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>72</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×LINE攻略_オープンチャット立ち上げ1日完全攻略</h3>
-          <p class="card-desc">無料で立ち上げ、ノートに特典リンクを置き、固定ポスト・ハイライト・概要欄から人を流すまでの手順。禁止ワード対策まで込み。</p>
+          <h3 class="card-title">AI×ローンチファネル_セールスLP・セミナー集客LP・オプトイン・LINE登録ページをスマホ最適で一括生成Skill</h3>
+          <p class="card-desc">ファーストビューを2案出して選んでから下層を作り、長尺ページとして繋ぐ。CTA素材とスマホ優先のHTML/CSSまで出るので、そのまま公開できる形で上がってくる。参考画像は下敷きにするだけで丸写ししない。</p>
           
-          <div class="card-tags"><span class="card-tag">オープンチャット</span><span class="card-tag">立ち上げ</span><span class="card-tag">リスト取り</span></div>
+          <div class="card-tags"><span class="card-tag">LP</span><span class="card-tag">セールスページ</span><span class="card-tag">スマホ最適</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1697,12 +1697,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.073</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>73</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_セミナー開催準備 全工程Skill</h3>
-          <p class="card-desc">スライド台本の設計から告知文・予約配信・公開カレンダーまで、セミナー1本の準備を最後まで通す。当日までに何が要るかで迷わない。</p>
+          <h3 class="card-title">AI×コンテンツ販売_日程調整→スライド台本設計→告知文→予約配信→公開カレンダー登録までワンストップSkill</h3>
+          <p class="card-desc">セミナー1本の準備を一度に片付ける。既存予定との衝突を確認して日程を決め、台本の骨組みを作り、告知の配信文を書いて予約し、公開カレンダーへ登録するところまで。当日までに何が要るかで迷わない。</p>
           <div class="card-cmd">/seminar-prep</div>
           <div class="card-tags"><span class="card-tag">セミナー</span><span class="card-tag">開催準備</span><span class="card-tag">告知</span></div>
         </div>
@@ -1713,12 +1713,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.074</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>74</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_セミナースライド台本作成Skill</h3>
-          <p class="card-desc">文字起こしや過去資料から、スライドに出す表示テキストの台本を作る。1枚1メッセージで、話す順に並んだ状態で出てくる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_文字起こし→章立て→1枚1メッセージ→実演パート→配布リンクまで組むスライド台本Skill</h3>
+          <p class="card-desc">話す台本ではなく、スライドに出す表示テキストだけを作る。文字起こしや過去資料から章を立て、1枚1メッセージに割り、実演パートとコピペ用プロンプト・配布リンクの置き場所まで指定する。</p>
           <div class="card-cmd">/seminar-slide-script-complete</div>
           <div class="card-tags"><span class="card-tag">セミナー</span><span class="card-tag">台本</span><span class="card-tag">スライド</span></div>
         </div>
@@ -1729,12 +1729,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.075</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>75</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_セールススライド全自動生成Skill</h3>
-          <p class="card-desc">台本を読んでレイアウトを選び、背景を揃えてセミナースライドを生成する。小バッチで検品しながら進むので崩れが残らない。</p>
+          <h3 class="card-title">AI×コンテンツ販売_台本解析→レイアウト選定→高画質生成→小バッチ検品→PDF・PPTX化まで通すスライドSkill</h3>
+          <p class="card-desc">台本を読んでレイアウトを選び、背景を揃えてセミナースライドを生成する。小さいバッチで検品しながら進むので崩れが残らず、通ったものだけPDFとPPTXに落とせる。崩れた枚だけ差し替えられる。</p>
           <div class="card-cmd">/slide</div>
           <div class="card-tags"><span class="card-tag">スライド</span><span class="card-tag">セールス</span><span class="card-tag">生成</span></div>
         </div>
@@ -1745,14 +1745,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.076</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>76</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_セミナーアーカイブページ自動生成Skill</h3>
-          <p class="card-desc">Zoom録画・チャット・台本から、全文文字起こしとタイムコードとQ&amp;Aが入ったアーカイブページを作る。見逃した人がそこで追いつける。</p>
+          <h3 class="card-title">AI×ローンチファネル_録画の文字起こし→講義要点→Q&amp;A→動画埋め込み→短縮リンク→QRまで作るアーカイブSkill</h3>
+          <p class="card-desc">セミナーが終わった後の振り返りページを、録画と音声とチャットから組み立てる。全文文字起こし・要点・実タイムコード・Q&amp;A・動画プレビューまで入り、配布用の短縮リンクとQRコードも一緒に出る。</p>
           <div class="card-cmd">/seminar-archive-html</div>
-          <div class="card-tags"><span class="card-tag">アーカイブ</span><span class="card-tag">セミナー</span><span class="card-tag">HTML</span></div>
+          <div class="card-tags"><span class="card-tag">アーカイブ</span><span class="card-tag">セミナー</span><span class="card-tag">会員サイト</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1761,14 +1761,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.077</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>77</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_リードマグネット設計93枚完全解説</h3>
-          <p class="card-desc">特典の設計・型・コピー・AI制作手順を93枚で通した講義の全テキスト。何を配ると人が集まるのかが順番で分かる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_悩み→次の行動→形式→コピー→中身→CTA→配布条件→告知文まで特典設計8ステップ完全攻略</h3>
+          <p class="card-desc">何を作るかで止まらないための順番。誰のどの悩みに当てるかを決め、次にしてほしい行動から形式を選び、コピーを先に固めてから中身を作り、CTAと配布条件と告知文まで落とす。講義93枚の全テキストが付く。</p>
           
-          <div class="card-tags"><span class="card-tag">リードマグネット</span><span class="card-tag">特典設計</span><span class="card-tag">講義</span></div>
+          <div class="card-tags"><span class="card-tag">リードマグネット</span><span class="card-tag">特典設計</span><span class="card-tag">8ステップ</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1777,13 +1777,13 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.078</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>78</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×広告運用_広告クリエイティブ一気通貫量産Skill</h3>
-          <p class="card-desc">Meta・YouTube広告の画像、15秒/30秒/60秒の動画台本、プライマリテキスト、ABテストのセットまで一気に出す。</p>
-          <div class="card-cmd">/ads-creative</div>
+          <h3 class="card-title">AI×広告運用_バナー画像→15秒30秒60秒の動画台本→プライマリテキスト→ABテスト3〜5案まで一括量産Skill</h3>
+          <p class="card-desc">Meta広告とYouTube広告の素材を一度に出す。バナー画像、15秒/30秒/60秒の動画台本、プライマリテキスト3セット、スキップ可能広告とバンパー6秒、ABテスト用の差分まで揃う。</p>
+          
           <div class="card-tags"><span class="card-tag">広告</span><span class="card-tag">クリエイティブ</span><span class="card-tag">ABテスト</span></div>
         </div>
         <div class="card-foot">
@@ -1793,12 +1793,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.079</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>79</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×広告運用_広告・特典・セミナー・LP一式生成Skill</h3>
-          <p class="card-desc">企画1本ごとに、広告クリエイティブ・特典・セミナー・LPを一式で設計して回す。バナー単品ではなく1本の導線として組む。</p>
+          <h3 class="card-title">AI×広告運用_企画設計→広告クリエイティブ→特典→セミナー→LP→計測命名まで一式で回すAgent Skill</h3>
+          <p class="card-desc">バナー単品で終わらせず、企画1本ごとに広告・特典・セミナー・LPを一式で設計して回す。画像・動画・音声の制作は各スキルへ発注して束ね、計測の命名とABテストの分け方まで決める。</p>
           
           <div class="card-tags"><span class="card-tag">広告</span><span class="card-tag">導線設計</span><span class="card-tag">企画</span></div>
         </div>
@@ -1809,14 +1809,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-c)" data-family="launch">
         <div class="card-head">
           <span class="card-no flame-text">No.080</span>
-          <span class="card-badge">TEMPLATE</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>80</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×広告運用_売れる動画広告台本テンプレート</h3>
-          <p class="card-desc">獲得広告・教育広告・セミナー誘導広告の台本とクリエイティブ指示を、そのまま貼って使えるプロンプトの形にしてある。</p>
+          <h3 class="card-title">AI×ローンチファネル_通常投稿→教育投稿→ローンチ告知→告知動画→Threadsまで一貫生成するプロンプト</h3>
+          <p class="card-desc">貼るだけで、通常投稿から教育投稿・ローンチ告知・告知動画の構成・Threads版まで同じ精度で書き分けられる。どこにCTAを置くかまで含めて一本にまとめてある。</p>
           
-          <div class="card-tags"><span class="card-tag">動画広告</span><span class="card-tag">台本</span><span class="card-tag">プロンプト</span></div>
+          <div class="card-tags"><span class="card-tag">ローンチ投稿</span><span class="card-tag">プロンプト</span><span class="card-tag">告知</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1825,12 +1825,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.081</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>81</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_高単価商品コンセプト設計Skill</h3>
-          <p class="card-desc">商品コンセプト・講座設計・教材構成・オファーまでを、手元の一次情報から組み上げる。ゼロから作文させず、自分の実績と顧客の言葉で商品を固められる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_コンセプト→ペルソナ→USP→カリキュラム→価格→オファー・特典設計まで一撃構築するAgent Skill</h3>
+          <p class="card-desc">ヒアリングから入って、商品コンセプト・ペルソナ・USP・カリキュラム構成・価格・オファーまでを一本で組み上げる。材料は手元の一次情報だけなので、AIが作った「それっぽい商品」にならない。</p>
           <div class="card-cmd">/osaru-product-creation-skill</div>
           <div class="card-tags"><span class="card-tag">商品設計</span><span class="card-tag">コンセプト</span><span class="card-tag">オファー</span></div>
         </div>
@@ -1841,12 +1841,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.082</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>82</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_講座レッスン本文量産Skill</h3>
-          <p class="card-desc">講座レッスンと教材の本文を、既存レッスンと自分の過去文章から抜いた語彙で書く。カリキュラムだけ作って中身が空のまま止まっていた講座を、最後まで書き切れる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_章立て→レッスン本文→教材テキスト→用語注釈→出典づけまで書き切る講座教材量産Agent Skill</h3>
+          <p class="card-desc">章立てを決めたあと、レッスン本文・教材テキスト・専門用語の注釈・出典欄まで書き切る。カリキュラムだけ作って中身が空のまま止まっていた講座を、最後まで埋められる。注釈の抜けは機械で判定する。</p>
           <div class="card-cmd">/product-lesson-writing</div>
           <div class="card-tags"><span class="card-tag">教材制作</span><span class="card-tag">カリキュラム</span><span class="card-tag">執筆</span></div>
         </div>
@@ -1857,14 +1857,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.083</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>83</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_講義アーカイブページ自動生成Skill</h3>
-          <p class="card-desc">Zoom録画・チャット・台本から、全文文字起こしと実タイムコードとQ&amp;Aが付いたアーカイブページを作る。講義をやりっぱなしにせず、そのまま売れる教材として残せる。</p>
-          <div class="card-cmd">/seminar-archive-html</div>
-          <div class="card-tags"><span class="card-tag">アーカイブ</span><span class="card-tag">教材化</span><span class="card-tag">HTML</span></div>
+          <h3 class="card-title">AI×コンテンツ販売_教材ページ→動画埋め込み→リンク集→Q&amp;A→会員サイト公開まで通すAgent Skillパック</h3>
+          <p class="card-desc">教材ページのHTML生成、UTAGEへの動画アップロードと埋め込み、リンク集、Q&amp;A、崩れ検査までを4本のSkillで通す。検索つきの会員サイトの器ごと渡すので、商品を届ける場所が公開まで止まらない。</p>
+          <div class="card-cmd">/utage-html</div>
+          <div class="card-tags"><span class="card-tag">会員サイト</span><span class="card-tag">教材ページ</span><span class="card-tag">動画埋め込み</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1873,14 +1873,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.084</span>
-          <span class="card-badge">SHEET</span>
+          <span class="card-badge">シート</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>84</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_商品立ち上げ必須チェック73選</h3>
-          <p class="card-desc">商品開発・ローンチ・SNS・広告・クリエイティブ・CS・お金・全体統括の8領域を73項目で点検する。抜けたまま売り出して後から慌てる事故を、先に潰せる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_ターゲット・価格・提供形態で商品の食い合いを防ぎ立ち上げ73項目まで点検する商品設計シート</h3>
+          <p class="card-desc">ターゲット・価格・提供形態の3軸で自社商品どうしの食い合いを先に潰し、商品開発からローンチ・CS・返金ポリシー・全体統括まで73項目で点検する。売り出してから慌てる事故を、着手前に消せる。</p>
           
-          <div class="card-tags"><span class="card-tag">商品立ち上げ</span><span class="card-tag">チェックリスト</span></div>
+          <div class="card-tags"><span class="card-tag">商品ラインナップ</span><span class="card-tag">チェックリスト</span><span class="card-tag">立ち上げ</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1889,14 +1889,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.085</span>
-          <span class="card-badge">PROMPT</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>85</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_無料と有料の線引き大全</h3>
-          <p class="card-desc">どこまでを無料で渡し、どこから有料にするかをAIと詰めるプロンプト。出し惜しみして刺さらない、出しすぎて売れない、の両方を避けられる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_全体像・背景・判断基準は無料/手順・テンプレは有料に線引きする公開範囲査定プロンプト</h3>
+          <p class="card-desc">有料ナレッジを読ませても、全体像・背景・判断基準・よくある失敗までは無料、再現できる手順とテンプレは有料、と分類してから本文を書かせる。出し惜しみして刺さらない、出しすぎて売れない、の両方を避けられる。</p>
           
-          <div class="card-tags"><span class="card-tag">無料特典</span><span class="card-tag">価格設計</span><span class="card-tag">プロンプト</span></div>
+          <div class="card-tags"><span class="card-tag">無料特典</span><span class="card-tag">公開範囲</span><span class="card-tag">プロンプト</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1905,12 +1905,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.086</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>86</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ナレッジ構築_5Days全講義まるごとナレッジデータ</h3>
-          <p class="card-desc">5Daysセミナーの資料をそのまま全部テキストにしたデータ。自分のClaude Codeに丸ごと読ませて、おさる式の判断基準ごと自分の事業へ移植できる。</p>
+          <h3 class="card-title">AI×ナレッジ構築_5Days全講義のスライド・台本・Q&amp;A・チャットログを全文テキスト化したナレッジデータ</h3>
+          <p class="card-desc">5Daysの全講義を、スライドの表示テキスト・台本・Q&amp;A・チャットログまで丸ごとテキストにしたデータ。自分のClaude CodeやNotebookLMに読ませて、おさる式の判断基準ごと自分の事業へ移植できる。</p>
           
           <div class="card-tags"><span class="card-tag">ナレッジデータ</span><span class="card-tag">全文テキスト</span><span class="card-tag">5Days</span></div>
         </div>
@@ -1921,14 +1921,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.087</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>87</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ナレッジ構築_全特典の中身まるごとナレッジデータ</h3>
-          <p class="card-desc">100大特典の中身をそのまま全部テキスト化したデータ。人が読み直さなくても、AIが特典の中身を全部知っている状態から作業に入れる。</p>
+          <h3 class="card-title">AI×ナレッジ構築_100大特典の本体・使い方・実行例・プロンプトを1本に束ねた特典まるごとナレッジデータ</h3>
+          <p class="card-desc">100大特典の中身を、本体・使い方・実行例・プロンプトまで1本のテキストに束ねたデータ。人が特典を読み直さなくても、AIが100本の中身を全部知っている状態から作業に入れる。</p>
           
-          <div class="card-tags"><span class="card-tag">ナレッジデータ</span><span class="card-tag">特典全文</span></div>
+          <div class="card-tags"><span class="card-tag">ナレッジデータ</span><span class="card-tag">特典全文</span><span class="card-tag">AI読み込み用</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1937,12 +1937,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.088</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>88</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ナレッジ構築_7Daysブートキャンプ全文ナレッジデータ</h3>
-          <p class="card-desc">7日間の講義のスライド台本と文字起こしを束ねたデータ。講義を見返す代わりに、AIへ読ませて必要なところだけを引き出せる。</p>
+          <h3 class="card-title">AI×ナレッジ構築_7Days講義4日分の録音文字起こし・Zoomチャット・スライドを束ねた46万字ナレッジデータ</h3>
+          <p class="card-desc">受講生限定で開催した7Days講義4日分の録音文字起こしとZoomチャットを束ねた46万字。講義を見返す代わりにClaude Codeへ読ませて、必要なところだけを引き出せる。</p>
           
           <div class="card-tags"><span class="card-tag">ナレッジデータ</span><span class="card-tag">講義全文</span><span class="card-tag">文字起こし</span></div>
         </div>
@@ -1953,14 +1953,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.089</span>
-          <span class="card-badge">KNOWLEDGE</span>
+          <span class="card-badge">ナレッジデータ</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>89</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×ナレッジ構築_リードマグネット講義93枚ナレッジデータ</h3>
-          <p class="card-desc">特典設計の講義93枚分の表示テキストと台本を束ねたデータ。特典の型・コピー・制作手順を、AIがいつでも参照できる状態で持てる。</p>
+          <h3 class="card-title">AI×ナレッジ構築_X記事28本・保存版資料11本・YouTube台本・配れるプロンプト36本を全文化したナレッジデータ</h3>
+          <p class="card-desc">X記事28本・保存版資料11本・YouTube台本・そのまま貼れるプロンプト36本を全文テキストにしたデータ。読み物として読むのではなく、AIに読ませて自分の発信と教材の材料にできる。</p>
           
-          <div class="card-tags"><span class="card-tag">ナレッジデータ</span><span class="card-tag">特典設計</span><span class="card-tag">講義全文</span></div>
+          <div class="card-tags"><span class="card-tag">ナレッジデータ</span><span class="card-tag">記事全文</span><span class="card-tag">プロンプト集</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1969,14 +1969,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.090</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>90</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_顧客サポート返信下書きSkill</h3>
-          <p class="card-desc">届いた質問を優先度順に整理して、返信の下書きまで作る（送信はしない）。返事が遅れて信頼を落とす状態から抜けられる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_質問の収集→優先度判定→返信下書き→FAQ化候補の抽出まで通す顧客サポート代行Skill</h3>
+          <p class="card-desc">届いた質問を集めて優先度を付け、返信の下書きとFAQ化する候補まで作る（送信はしない）。前回ローンチで実際に配ったSkillパックの1本で、属人情報の除外ルールを通してある。</p>
           
-          <div class="card-tags"><span class="card-tag">CS</span><span class="card-tag">返信下書き</span><span class="card-tag">サポート</span></div>
+          <div class="card-tags"><span class="card-tag">CS</span><span class="card-tag">返信下書き</span><span class="card-tag">FAQ化</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -1985,14 +1985,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.091</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>91</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_質問回答AIのナレッジ更新Skill</h3>
-          <p class="card-desc">講義・配信文・チャットから未反映の情報だけを集めて、24時間答える質問回答AIのナレッジを更新する。同じ質問に何度も人が答える状態を終わらせられる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_講義・配信文・チャットの差分収集→機微情報マスク→24時間答える質問回答AIの更新Skill</h3>
+          <p class="card-desc">講義・配信文・チャットから未反映の情報だけを差分で集め、APIキーやメールアドレスを伏せた上で、24時間答える質問回答AIのナレッジを更新する。同じ質問に何度も人が答える状態を終わらせられる。</p>
           <div class="card-cmd">/qa-update</div>
-          <div class="card-tags"><span class="card-tag">質問回答AI</span><span class="card-tag">FAQ</span><span class="card-tag">ナレッジ更新</span></div>
+          <div class="card-tags"><span class="card-tag">質問回答AI</span><span class="card-tag">NotebookLM</span><span class="card-tag">ナレッジ更新</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -2001,12 +2001,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.092</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>92</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_外注に渡す操作マニュアル生成Skill</h3>
-          <p class="card-desc">スクショや操作録画に赤枠と赤矢印を焼き込み、そのまま貼れる手順HTMLまで出す。機微情報は自動でモザイクにする。同じ説明を口頭で繰り返す時間が消える。</p>
+          <h3 class="card-title">AI×コンテンツ販売_スクショ・録画→赤枠と赤矢印→機微情報モザイク→貼れる手順HTMLまで出す外注マニュアル生成Skill</h3>
+          <p class="card-desc">スクリーンショットや操作録画に赤枠と赤矢印を焼き込み、メールアドレスなどの機微情報へ自動でモザイクをかけ、そのまま貼れる手順HTMLまで出す。同じ説明を口頭で繰り返す時間が消える。</p>
           <div class="card-cmd">/step-guide</div>
           <div class="card-tags"><span class="card-tag">外注マニュアル</span><span class="card-tag">手順書</span><span class="card-tag">教材制作</span></div>
         </div>
@@ -2017,12 +2017,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.093</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>93</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×コンテンツ販売_AI導入でつまずく質問28選</h3>
-          <p class="card-desc">AI導入で実際に詰まった質問と回答を28本まとめたもの。自分の商品のFAQの雛形になり、そのまま質問回答AIに読ませられる。</p>
+          <h3 class="card-title">AI×コンテンツ販売_初期設定・モデル選び・セキュリティ・事故対応・ツール選定で詰まった実質問と回答28選</h3>
+          <p class="card-desc">初期設定・モデル選び・セキュリティ・事故対応・ツール選定で実際に詰まった質問と回答を28本。受講生限定で配っていた講座チャットの実質問から作ってあり、自分の商品のFAQの雛形にそのまま使える。</p>
           
           <div class="card-tags"><span class="card-tag">FAQ</span><span class="card-tag">Q&amp;A</span><span class="card-tag">サポート</span></div>
         </div>
@@ -2033,12 +2033,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.094</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>94</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×マインドセット_朝の経営ダッシュボードSkill</h3>
-          <p class="card-desc">部門別のアラート・今日のフォーカス・重要メールを、朝1枚にまとめて出す。今日どこから手をつけるかを、自分で考えなくて済む。</p>
+          <h3 class="card-title">AI×マインドセット_部門別アラート→今日のフォーカス→予定→重要メール仕分けと返信下書きまで朝1枚に出すAI経営Skill</h3>
+          <p class="card-desc">部門別のアラート、今日のフォーカス、Googleカレンダーの予定、Gmailの重要メールの仕分けと返信下書きまでを朝1枚に出す。今日どこから手をつけるかを、自分で考えなくて済む。</p>
           <div class="card-cmd">/morning</div>
           <div class="card-tags"><span class="card-tag">AI経営</span><span class="card-tag">朝のルーティン</span><span class="card-tag">ダッシュボード</span></div>
         </div>
@@ -2049,12 +2049,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.095</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>95</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×マインドセット_終業レポート自動生成Skill</h3>
-          <p class="card-desc">1日の終わりに成果・残タスク・明日の準備を回収して、日次と週次と月次のレポートまで自動で作る。やった仕事が記録として積み上がる。</p>
+          <h3 class="card-title">AI×マインドセット_成果の回収→残タスク整理→明日の準備→日次・週次・月次レポートまで作る終業Agent Skill</h3>
+          <p class="card-desc">1日の終わりに成果を回収し、残タスクの整理・明日の準備・日次と週次と月次のレポートまで自動で作る。やった仕事が記録として積み上がり、週報を書き直す時間が要らなくなる。</p>
           <div class="card-cmd">/shutdown</div>
           <div class="card-tags"><span class="card-tag">AI経営</span><span class="card-tag">日次レポート</span><span class="card-tag">終業処理</span></div>
         </div>
@@ -2065,14 +2065,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.096</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>96</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×マインドセット_タスク自動仕分けSkill</h3>
-          <p class="card-desc">タスク管理ツールを正本にして全タスクを部門ごとへ振り分け、AIが今すぐやれる仕事・下準備できる仕事・自分がやる仕事に分ける。着手順で迷わなくなる。</p>
-          <div class="card-cmd">/tasks</div>
-          <div class="card-tags"><span class="card-tag">タスク管理</span><span class="card-tag">AI経営</span><span class="card-tag">仕分け</span></div>
+          <h3 class="card-title">AI×マインドセット_チャット・ボード・メモに散ったタスクを1本に集めて部門別・番号付きで出すAI一人企業Skill</h3>
+          <p class="card-desc">各部門のタスク一覧、Trelloのボード、Chatworkのやりとり、引き継ぎメモに散ったタスクを1本に集めて、部門別・番号付きで出す。着手順で迷わなくなり、拾い漏れが消える。</p>
+          <div class="card-cmd">/task</div>
+          <div class="card-tags"><span class="card-tag">タスク管理</span><span class="card-tag">AI経営</span><span class="card-tag">統合ビュー</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -2081,12 +2081,12 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.097</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>97</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×マインドセット_1人会社の部署設計Skill</h3>
-          <p class="card-desc">主要な業務を、部署・継続タスク・手順書・スキルの1セットに束ねていく。1人でも、担当が決まった組織のように仕事が回り始める。</p>
+          <h3 class="card-title">AI×マインドセット_業務の棚卸し→部署化→継続タスク→手順書→専用Skillまで束ねる1人AI組織設計Skill</h3>
+          <p class="card-desc">主要な業務を、部署・継続タスク・手順書・専用Skillの1セットに束ねていく。元本は動かさずコピー側を実務で育てるので、1人でも担当が決まった組織のように仕事が回り始める。</p>
           <div class="card-cmd">/ai-management-evolution</div>
           <div class="card-tags"><span class="card-tag">AI経営</span><span class="card-tag">仕組み化</span><span class="card-tag">部署設計</span></div>
         </div>
@@ -2097,14 +2097,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.098</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">プロンプト</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>98</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×マインドセット_人間の判断だけ抽出Skill</h3>
-          <p class="card-desc">AIが進められない「自分にしか決められないもの」だけを全部集めて、優先度つきの1枚にする。承認待ちが溜まって誰も読まない状態を止められる。</p>
-          <div class="card-cmd">/human-handoff</div>
-          <div class="card-tags"><span class="card-tag">判断軸</span><span class="card-tag">意思決定</span><span class="card-tag">AI経営</span></div>
+          <h3 class="card-title">AI×マインドセット_会計ソフト接続→科目当て→証憑収集→スキル化→定期実行→初回テストまで一撃構築する経理自動化プロンプト</h3>
+          <p class="card-desc">法人か個人か・会計ソフト・領収書の枚数を聞いたうえで、自動化の線引きから作り始める。会計ソフト接続、明細への科目当て、証憑の自動収集、スキル化、定期実行の登録、初回テストまで1本で走る。お金が動く操作は人に返す。</p>
+          
+          <div class="card-tags"><span class="card-tag">経理自動化</span><span class="card-tag">証憑</span><span class="card-tag">定期実行</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -2113,14 +2113,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.099</span>
-          <span class="card-badge">SKILL</span>
+          <span class="card-badge">スキル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>99</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×マインドセット_AI活用の一次情報を毎日残すSkill</h3>
-          <p class="card-desc">打ったプロンプト・最初の出力・直した所・いま動いている形を、その日のうちに記録する。後から作文できない一次情報が、発信の材料として毎日積み上がる。</p>
+          <h3 class="card-title">AI×マインドセット_プロンプト元本→一発目の出力→修正過程→現在の稼働まで毎日残すAI活用一次情報Skill</h3>
+          <p class="card-desc">打ったプロンプトの元本、一発目の出力、どこをなぜ直したか、いま何が動いているかを、その日のうちに記録する。後から作文できない一次情報が、発信と教材の材料として毎日積み上がる。</p>
           <div class="card-cmd">/ai-record</div>
-          <div class="card-tags"><span class="card-tag">一次情報</span><span class="card-tag">記録</span><span class="card-tag">判断軸</span></div>
+          <div class="card-tags"><span class="card-tag">一次情報</span><span class="card-tag">記録</span><span class="card-tag">実例DB</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -2129,14 +2129,14 @@ a:hover{ color:var(--accent-glow); }
       <article class="card" style="--cat:var(--fam-d)" data-family="product">
         <div class="card-head">
           <span class="card-no flame-text">No.100</span>
-          <span class="card-badge">GUIDE</span>
+          <span class="card-badge">完全マニュアル</span>
         </div>
         <div class="card-thumb"><div class="card-thumb-ph"><span>100</span></div></div>
         <div class="card-body">
-          <h3 class="card-title">AI×マインドセット_AIっぽさが消える本人語彙の極意</h3>
-          <p class="card-desc">AIが作った「それっぽい表現」を捨て、自分が実際に使っている言葉だけで書き直すための原則。読んだ人にAIが書いた文章だと気づかれなくなる。</p>
+          <h3 class="card-title">AI×ライティング_語彙の棚卸し→本人語彙マージ→出典づけ→提出前チェックまでAIっぽさを消す本人語彙大全</h3>
+          <p class="card-desc">AIが作った「それっぽい表現」を捨て、自分が実際に使っている言葉だけで書き直すための原則。語彙の棚卸し・マージ・出典づけ・提出前チェックまで手順で決まっているので、読んだ人にAIが書いたと気づかれなくなる。</p>
           
-          <div class="card-tags"><span class="card-tag">判断軸</span><span class="card-tag">文体</span><span class="card-tag">AIっぽさ</span></div>
+          <div class="card-tags"><span class="card-tag">AIっぽさ</span><span class="card-tag">文体</span><span class="card-tag">一次情報</span></div>
         </div>
         <div class="card-foot">
           <a class="btn btn-primary" href="#">受け取る →</a>
@@ -2150,7 +2150,7 @@ a:hover{ color:var(--accent-glow); }
 <section class="section" id="legacy">
   <div class="wrap">
     <div class="panel">
-      <span class="section-label">2025 ARCHIVE</span>
+      <span class="section-label">2025年の特典</span>
       <h2 class="panel-title">さらに、2025年の200大特典も全部そのまま受け取れます。</h2>
       <p class="panel-desc">去年のブートキャンプで配った200大特典は、いまも会員サイトに置いてあります。今年の100大特典と合わせて、合計300個。</p>
       <a class="btn btn-ghost btn-lg" href="https://utage-system.com/members/Vm2R1nPzwqfc/home" target="_blank" rel="noopener">200大特典を見る</a>
@@ -2162,7 +2162,7 @@ a:hover{ color:var(--accent-glow); }
 <section class="section cta">
   <div class="wrap">
     <div class="panel">
-      <span class="section-label">NEXT STEP</span>
+      <span class="section-label">次のステップ</span>
       <h2 class="cta-title">この100個を、あなたの商品で動かす方法</h2>
       <p class="panel-desc">特典をダウンロードしただけでは成果は出ません。あなたの商品・顧客・媒体に合わせてSkillを組み替えるところまでを、講座で伴走します。</p>
       
